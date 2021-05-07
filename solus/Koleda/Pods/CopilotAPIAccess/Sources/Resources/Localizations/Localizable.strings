@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  Copilot
+
+  Created by Revital Pisman on 08/08/2019.
+  Copyright © 2019 Zemingo. All rights reserved.
+*/
+
+//Raf
+Raf_shareNow = "Share now";
+Raf_retry = "Retry";
+
+//Raf Details
+Raf_rafDetails = "Give your friends %@ off a new %@ when they use your link, and get rewarded when they buy.";
+
+//Raf Rewards
+Raf_rewardsTitle = "Select rewards to claim";
+Raf_getDiscount = "Get Discount";
+Raf_termsApply = "Terms apply";
+Raf_noRewards = "No rewards yet";
+Raf_rewards = "Rewards";
+Raf_pending = "Pending";
+
+//Raf Discount Codes
+Raf_discountCodes = "Discount Codes";
+Raf_discountCodesDescription = "Your discount codes - apply them on store checkout";
+Raf_noDiscountCodesDescription = "Your codes will be here - apply them on store checkout";
+Raf_noCodesYet = "No codes yet";
+
+//Raf Dynamic Content
+Raf_details = "Details";
+
+//Raf Terms Details
+Raf_companyDetails = "%@ inc. %@, %@";
+Raf_termsAndConditions = "Terms & Conditions";
+
+//Raf Alerts
+Raf_getDiscountTitle = "Great choice!";
+Raf_getDiscountMessage = "You’re about to claim your %@ code for the %@ store.\nThis cannot be undone.";
+Raf_cancel = "Cancel";
+Raf_getTheCode = "Get the code";
+Raf_noInternetConnectionAlert = "No internet connection, please try again later";
+Raf_generalErrorAlert = "General error occurred, please try again later";
+
+//Altruistic
+Raf_share = "Share!";
+Raf_refferYourFriends = "Reffer Your Friends";
+
+//Errors
+Raf_noInternetConnection = "No Internet connection";
+Raf_generalError = "General error occurred";
+

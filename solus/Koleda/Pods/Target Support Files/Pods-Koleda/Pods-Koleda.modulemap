@@ -1,0 +1,6 @@
+framework module Pods_Koleda {
+  umbrella header "Pods-Koleda-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,449 @@
+/*
+ Localizable.strings
+ Koleda
+ 
+ Created by Oanh tran on 7/2/19.
+ Copyright © 2019 koleda. All rights reserved.
+ */
+
+
+"ERROR_TITLE" = "B³¹d";
+"PLACEHOLDER_ERROR_MESSAGE" = "Coœ posz³o nie tak.";
+"ERROR_GENERAL" = "Wyst¹pi³ problem z po³¹czeniem. Spróbuj ponownie póŸniej.";
+"LOGIN_SESSSION_EXPIRED" = "Sesja logowania wygas³a.";
+"TERM_AND_CONDITION_CONTENT" = "<p>Firma Koleda opracowa³a aplikacjê Solus w charakterze aplikacji komercyjnej. Niniejsza US£UGA jest œwiadczona przez firmê Koleda i jest przeznaczona do u¿ytku w stanie takim, w jakim jest.</p><p>Ta strona s³u¿y do informowania odwiedzaj¹cych o naszych zasadach gromadzenia, wykorzystywania i ujawniania Informacji Osobistych, jeœli zdecyduj¹ siê skorzystaæ z naszej Us³ugi.</p><p>W przypadku podjêcia decyzji o korzystaniu z naszej Us³ugi u¿ytkownik wyra¿a zgodê na gromadzenie i wykorzystywanie informacji w zwi¹zku z niniejsz¹ Polityk¹. Informacje Osobiste, które gromadzimy, s¹ wykorzystywane do œwiadczenia i ulepszania Us³ugi. Nie bêdziemy wykorzystywaæ ani udostêpniaæ informacji o u¿ytkowniku nikomu, z wyj¹tkiem przypadków opisanych w niniejszej Polityce Prywatnoœci.</p><p>Terminy u¿yte w niniejszej Polityce Prywatnoœci maj¹ takie samo znaczenie jak w naszym Regulaminie, który jest dostêpny w aplikacji Solus, chyba ¿e okreœlono inaczej w niniejszej Polityce Prywatnoœci.</p><p>Gromadzenie i wykorzystywanie informacji</p><p>Aby zapewniæ lepsze wra¿enia u¿ytkowe, podczas korzystania z Us³ugi mo¿emy wymagaæ od U¿ytkownika dostarczenia nam pewnych informacji umo¿liwiaj¹cych ustalenie to¿samoœci. Informacje, o które prosimy, bêd¹ przez nas przechowywane i wykorzystywane w sposób opisany w niniejszej Polityce Prywatnoœci.</p><p>Aplikacja korzysta z us³ug stron trzecich, które mog¹ gromadziæ informacje wykorzystywane do identyfikacji u¿ytkownika.</p><p>Odnoœnik do polityki prywatnoœci zewnêtrznych dostawców us³ug wykorzystywanych przez aplikacjê</p>";
+// WIFI SCREEN
+"OK" = "OK";
+"OPEN_SETTINGS_TITLE" = "PrzejdŸ do ustawieñ";
+"CANCEL" = "Anuluj";
+"ALLOW_ACCESS_LOCATION_IN_SETTING_MESSAGE" = "Ta aplikacja wymaga dostêpu do Twojej lokalizacji w celu sprawdzania bie¿¹cego po³o¿enia czujnika.";
+"ALLOW_ACCESS_LOCATION_IN_SETTING_TITLE" = "Zmieñ uprawnienia dostêpu do lokalizacji w ustawieniach.";
+"ERROR_CONNECT_WIFI_MESSAGE" = "Wygl¹da na to, ¿e nie masz po³¹czenia z sieci¹ Wi-Fi. Spróbuj ponownie!";
+"CONNECT_WIFI_MESSAGE" = "Sprawdzanie po³¹czenia Wi-Fi. Czekaj…";
+// HOME SCREEN
+"SURFFIXES_HOME_TITLE" = ": strona g³ówna";
+// ROOM SCREEN
+"FAILED_TO_UPDATE_ROOM" = "Aktualizacja pomieszczenia nie powiod³a siê. Spróbuj ponownie póŸniej.";
+"CANCEL" = "Anuluj";
+"DELETE" = "Usuñ";
+"DELETE_THIS_ROOM_TITLE" = "Usun¹æ to pomieszczenie?";
+"DELETE_THIS_ROOM_MESSAGE" = "Wszystkie czujniki i grzejniki w tym pomieszczeniu zostan¹ usuniête.";
+// LOGIN SCREEN
+"INVALID_PASSWORD_MESSAGE" = "Has³o musi zawieraæ od 6 do 21 znaków. Dozwolone znaki to [a–z] [A–Z] [0–9] [’@ & # . -]";
+//SIGN UP
+"EMAIL_EXISTED_MESSAGE" = "Ten adres e-mail jest ju¿ zarejestrowany. Spróbuj u¿yæ innego adresu.";
+"EMAIL_NOT_EXISTED_MESSAGE" = "Nie znaleziono adresu e-mail. Zaktualizuj swój adres na koncie Facebook";
+// ADD DEVICE
+"DEVICE_EXISTED_MESSAGE" = "ju¿ istnieje w innym pomieszczeniu.";
+// SIGN IN WITH APPLE
+"SHARE_APPLE_EMAIL_REQUIRED_MESSAGE" = "Solus+ u¿ywa Twojego adresu e-mail jako unikatowego identyfikatora do zarz¹dzania aplikacj¹. Udostêpnij swój adres, aby kontynuowaæ logowanie przy u¿yciu konta Apple.";
+// JOIN HOME
+"EMAIL_NOT_AVAILABLE_MESSAGE" = "Adres e-mail jest ju¿ w u¿yciu.";
+"HOME_ID_INVALID_MESSAGE" = "Nieprawid³owy identyfikator domu";
+"EMAIL_IS_NOT_INVITED_MESSAGE" = "Twój adres e-mail nie zosta³ zaproszony do do³¹czenia do domu";
+//INVITE FRIEND
+"EMAIL_INVALID_MESSAGE" = "Nieprawid³owy adres e-mail";
+"EMAIL_SIMILAR_MESSAGE" = "Nie mo¿esz zaprosiæ siebie";
+"EMAIL_MASTER_MESSAGE" = "Istnieje ju¿ konto nadrzêdne z tym adresem e-mail";
+"EMAIL_GUEST_MESSAGE" = "Istnieje ju¿ konto goœcia z tym adresem e-mail";
+//FORGOT PASS
+"USER_NOT_FOUND_MESSAGE" = "Nie znaleziono u¿ytkownika z tym adresem e-mail";
+// OnboardingViewController
+"WELCOME" = "Witamy!";
+"SUB_TITLE" = "Oto Solus+, grzejnik na miarê przysz³oœci.";
+"SIGN_UP" = "Zarejestruj siê";
+"CONTINUE_WITH_FACEBOOK" = " Kontynuuj z kontem Facebook";
+"CONTINUE_WITH_GOOGLE" = " Kontynuuj z kontem Google";
+"CONTINUE_WITH_APPLE" = " Kontynuuj z kontem Apple";
+"JOIN_HOME" = " Do³¹cz do domu";
+"ALREADY_HAVE_A_ACCOUNT" = " Masz ju¿ konto?";
+"LOGIN" = "Zaloguj siê";
+"LOGIN_APPLE_FAILED_TEXT" = "Logowanie przy u¿yciu konta Apple nie powiod³o siê";
+"WE_CAN_NOT_LOGIN_APPLE_MESS" = "Obecnie nie mo¿esz zalogowaæ siê za pomoc¹ konta Apple. Spróbuj ponownie póŸniej.";
+"LOGIN_GOOGLE_FAILED_TEXT" = "Logowanie przy u¿yciu konta Google nie powiod³o siê";
+"WE_CAN_NOT_LOGIN_GOOGLE_MESS" = "Obecnie nie mo¿esz zalogowaæ siê za pomoc¹ konta Google. Spróbuj ponownie póŸniej.";
+"LOGIN_FACEBOOK_FAILED_TEXT" = "Logowanie przy u¿yciu konta Facebook nie powiod³o siê";
+"WE_CAN_NOT_LOGIN_FACEBOOK_MESS" = "Obecnie nie mo¿esz zalogowaæ siê za pomoc¹ konta Facebook. Spróbuj ponownie póŸniej.";
+"PLEASE_SELECT_SHARE_EMAIL_CONTINUE_WITH_APPLE_SIGN_IN" = "Zaznacz opcjê „Udostêpnij mój adres e-mail”, aby kontynuowaæ logowanie przy u¿yciu konta Apple.";
+// LoginViewController
+"EMAIL_TITLE" = "E-MAIL";
+"PASSWORD_TITLE" = "HAS£O";
+"LOGIN_VIA_GOOGLE" = "Zaloguj przy u¿yciu konta Google";
+"LOGIN_VIA_FACEBOOK" = "Zaloguj przy u¿yciu konta Facebook";
+"LOGIN_VIA_APPLE" = "Zaloguj przy u¿yciu konta Apple";
+"FORGOT_PASSWORD" = "Nie pamiêtasz has³a?";
+"SIGN_IN" = "Zaloguj siê";
+"LOGIN_FAILED_TEXT" = "Logowanie nie powiod³o siê";
+"EMAIL_OR_PASS_IS_INVALID" = "Nieprawid³owy adres e-mail lub has³o";
+
+// SelectedRoomViewController
+"ADD_ROOM_ERROR_MESSAGE" = "Nie mo¿esz obecnie wykonaæ tej czynnoœci w tym pomieszczeniu: %@. Spróbuj ponownie póŸniej.";
+//InstructionView
+"ADD_SENSOR_INSTRUCTION_TITLE_1" = "podczas ustawiania pomieszczenia\nw³¹czaj tylko <h>jeden czujnik</h>\nnaraz.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_1" = "<b>Uwaga:</b> Aby maksymalnie uproœciæ konfiguracjê nowego systemu SOLUS+, zalecamy ustawienie ka¿dego grzejnika i czujnika z osobna. Zalecamy konfigurowanie czujnika dok³adnie w miejscu instalacji, aby upewniæ siê, ¿e istnieje stabilne po³¹czenie Wi-Fi.";
+"ADD_SENSOR_INSTRUCTION_TITLE_2" = "Otwórz czujnik, obracaj¹c <h>górn¹ czêœæ obudowy</h> o 45 stopni.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_2" = "Otwórz czujnik temperatury SOLUS, obracaj¹c górn¹ czêœæ obudowy zewnêtrznej o 45 stopni zgodnie z ruchem wskazówek zegara. Upewnij siê, ¿e czujnik temperatury SOLUS jest zasilany za pomoc¹ baterii CR123A.";
+
+"ADD_SENSOR_INSTRUCTION_TITLE_3" = "W³¹cz czujnik, <h>wciskaj¹c</h>\nprzycisk.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_3" = "Wciœnij przycisk – dioda LED powinna zacz¹æ powoli migaæ.\n<b>Uwaga</b>: Jeœli dioda LED nie miga powoli, naciœnij przycisk i przytrzymaj go przez co najmniej 10 sekund. Dioda LED powinna zacz¹æ szybko migaæ, sygnalizuj¹c, ¿e czujnik temperatury zosta³ zresetowany.";
+"ADD_SENSOR_INSTRUCTION_TITLE_4" = "Zamknij czujnik, zak³adaj¹c z powrotem <h>obudowê</h> i przekrêcaj¹c j¹ o 45 stopni.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_4" = "Mo¿esz zamkn¹æ czujnik, ³¹cz¹c górn¹ i doln¹ czêœæ obudowy zewnêtrznej i obracaj¹c j¹ o 45 stopni w kierunku przeciwnym do ruchu wskazówek zegara.";
+"ADD_SENSOR_INSTRUCTION_TITLE_5" = "Po³¹cz siê z czujnikiem temperatury SOLUS przez Wi-Fi.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_5" = "W tym celu: Otwórz Ustawienia > Wi-Fi i po³¹cz siê z sieci¹ Wi-Fi utworzon¹ przez czujnik temperatury SOLUS, np. solus-35FA58.";
+"ADD_SENSOR_INSTRUCTION_TITLE_6" = "Po³¹cz siê z punktem dostêpu\nWi-Fi czujnika.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_6" = "1. Po³¹cz siê bezpoœrednio z lokaln¹ sieci¹ Wi-Fi SOLUS o nazwie shellyht-XXXXXX lub Solus-Sensor-XXXXXX w ustawieniach Wi-Fi.\n2. Po nawi¹zaniu po³¹czenia wróæ do aplikacji SOLUS+ i wprowadŸ dane uwierzytelniaj¹ce swojej domowej sieci Wi-Fi.\n3. Po wprowadzeniu prawid³owych danych po³¹cz siê ponownie ze swoj¹ sieci¹ domow¹. Jeœli wszystko posz³o zgodnie z planem, aplikacja wykryje czujnik SOLUS.";
+
+"ADD_HEATER_INSTRUCTION_TITLE_1" = "Uwaga: podczas ustawiania pomieszczenia\nw³¹czaj tylko jeden czujnik naraz.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_1" = "<b>Uwaga:</b>\nAby maksymalnie uproœciæ konfiguracjê nowego systemu SOLUS+, zalecamy ustawienie ka¿dego grzejnika i czujnika z osobna. Zalecamy konfigurowanie grzejnika dok³adnie w miejscu instalacji, aby upewniæ siê, ¿e istnieje stabilne po³¹czenie Wi-Fi.";
+
+"ADD_HEATER_INSTRUCTION_TITLE_2" = "Pod³¹cz grzejnik Solus.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_2" = "Pod³¹cz grzejnik SOLUS+ do gniazdka elektrycznego i upewnij siê, ¿e jest solidnie zamocowany za pomoc¹ do³¹czonych uchwytów œciennych. Po pod³¹czeniu grzejnika SOLUS+ do gniazdka zasilania wciœnij przycisk zasilania z boku grzejnika, aby rozpocz¹æ konfiguracjê. Jeœli grzejnik SOLUS+ jest prawid³owo zasilany, przycisk zasilania zaœwieci siê.";
+
+"ADD_HEATER_INSTRUCTION_TITLE_3" = "Po³¹cz siê z punktem dostêpu\nWi-Fi grzejnika.";
+
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_3" = "Po³¹cz siê z grzejnikiem SOLUS+ przez Wi-Fi. W tym celu:\nOtwórz Ustawienia > Wi-Fi i po³¹cz siê z sieci¹ Wi-Fi utworzon¹ przez grzejnik SOLUS, np. solus-35FA58.\n<b>Uwaga:</b> Jeœli sieæ grzejnika SOLUS+ nie jest widoczna, od³¹cz urz¹dzenie. Pod³¹cz go ponownie do gniazdka i szybko wciœnij 5 razy przycisk zasilania w ci¹gu 30 sekund. Spowoduje to zresetowanie ustawieñ sieci bezprzewodowej.";
+
+"ADD_HEATER_INSTRUCTION_TITLE_4" = "Po³¹cz siê z punktem dostêpu\nWi-Fi grzejnika.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_4" = "1. Po³¹cz siê bezpoœrednio z lokaln¹ sieci¹ Wi-Fi SOLUS o nazwie SOLUS-Heater-XXXXXX lub Shelly1pm-XXXXXX w ustawieniach Wi-Fi.\n2. Po nawi¹zaniu po³¹czenia wróæ do aplikacji SOLUS+ i wprowadŸ dane uwierzytelniaj¹ce swojej domowej sieci Wi-Fi.\n3. Po wprowadzeniu prawid³owych danych po³¹cz siê ponownie ze swoj¹ sieci¹ domow¹. Jeœli wszystko posz³o zgodnie z planem, aplikacja wykryje grzejnik SOLUS.";
+// RoomViewModel
+"TURNED_OFF_VIA_SCHEDULE" = "Wy³¹czono poprzez inteligentne planowanie";
+"TARGET_TEMPERATURE" = "Temperatura docelowa";
+"MODE_TEXT" = "Tryb";
+//ScheduleOfDayViewModel
+"MON_ABBR" = "PON";
+"TUE_ABBR" = "WT";
+"WED_ABBR" = "ŒR";
+"THU_ABBR" = "CZW";
+"FRI_ABBR" = "PT";
+"SAT_ABBR" = "SOB";
+"SUN_ABBR" = "ND";
+
+"MON_TEXT" = "Poniedzia³ek";
+"TUE_TEXT" = "Wtorek";
+"WED_TEXT" = "Œroda";
+"THU_TEXT" = "Czwartek";
+"FRI_TEXT" = "Pi¹tek";
+"SAT_TEXT" = "Sobota";
+"SUN_TEXT" = "Niedziela";
+"NUMBER_ROOMS_CAN_NOT_SHOW_MESSAGE" = "Pomieszczenia: %d";
+"MORE_ROOMS_CAN_NOT_SHOW_MESSAGE" = "+ %d pom";
+//RoomType
+"LIVING_ROOM_TEXT" = "SALON";
+"MUSIC_ROOM_TEXT" = "POKÓJ ODS£UCHOWY";
+"HALLWAY_TEXT" = "KORYTARZ";
+"READING_ROOM_TEXT" = "BIBLIOTEKA";
+"BED_ROOM_TEXT" = "SYPIALNIA";
+"KIDS_ROOM_TEXT" = "POKÓJ DZIECIÊCY";
+"BATHROOM_TEXT" = "£AZIENKA";
+"WORKING_ROOM_TEXT" = "GABINET";
+"KITCHEN_TEXT" = "KUCHNIA";
+// BaseViewController
+"LOGOUT_TEXT" = "Wyloguj";
+//ProgressBarView
+"STEP_TEXT" = "Krok";
+//JoinHomeViewController
+"JOIN_HOME_TEXT" = "Do³¹cz do domu";
+"NAME_TEXT" = "IMIÊ";
+"EMAIL_TEXT" = "E-MAIL";
+"CREATE_PASSWORD_TEXT" = "UTWÓRZ HAS£O";
+"HOME_ID_TEXT" = "IDENTYFIKATOR DOMU";
+"NEXT_TEXT" = "Dalej";
+"JOIN_HOME_SUCCESS_MESS" = "Do³¹czanie do domu powiod³o siê!";
+"KOLEDA_TEXT" = "Koleda";
+// JoinHomeViewModel
+"LOGIN_FAILED_TRY_AGAIN_MESS" = "Logowanie nie powiod³o siê, spróbuj ponownie póŸniej.";
+"NAME_IS_NOT_EMPTY_MESS" = "Imiê nie mo¿e byæ puste";
+"NAME_IS_INVALID_MESS" = "Nieprawid³owe imiê";
+"EMAIL_IS_NOT_EMPTY_MESS" = "Adres e-mail nie mo¿e byæ pusty";
+"EMAIL_IS_INVALID_MESS" = "Nieprawid³owy adres e-mail";
+"PASS_IS_NOT_EMPTY_MESS" = "Has³o nie mo¿e byæ puste";
+"HOME_ID_IS_NOT_EMPTY_MESS" = "Identyfikator domu nie mo¿e byæ pusty";
+"HOME_ID_IS_INVALID_MESS" = "Nieprawid³owy identyfikator domu";
+
+//InstructionForHeaterViewController
+"SKIP_TEXT" = "Pomiñ";
+
+//HeatersManagementViewController
+"EDIT_HEATERS_TEXT" = "Edytuj grzejniki";
+"CONFIRM_TEXT" = "PotwierdŸ";
+"DELETED_HEATER_SUCCESS_MESS" = "Usuwanie grzejnika powiod³o siê!";
+"CAN_NOT_DELETE_HEATER" = "Obecnie nie mo¿na usun¹æ grzejnika.";
+"SENSOR_IS_PAIRED_WITH_HEATERS_MESS" = "Czujnik %@ jest obecnie sparowany z tymi grzejnikami.";
+"SENSOR_IS_NOT_PAIRED_ANY_HEATER_MESS" = "Czujnik %@ nie ³¹czy siê z ¿adnymi grzejnikami.";
+"HEATERS_TEXT" = "Grzejniki";
+"ADD_HEATERS_TEXT" = "Dodaj grzejniki";
+"ACTIVE_TEXT" = "Aktywny";
+"INACTIVE_TEXT" = "Nieaktywny";
+"REMOVE_TEXT" = "Usuñ";
+//AddHeaterManagementCollectionViewCell
+"SOLUS_TEXT" = "SOLUS+";
+"FREE_SLOT_TEXT" = "Wolne miejsce";
+"ADD_TEXT" = "Dodaj";
+
+//AddHeaterViewController
+"UPDATE_WIFI_SETTINGS_INFO_MESS" = "Zaktualizuj informacje o ustawieniach sieci Wi-Fi.";
+"SUCCESSFULL_TEXT" = "Uda³o siê!";
+"HEATER_CONNECTED_TO_YOUR_LOCAL_WIFI_MESS" = "Grzejnik jest po³¹czony z lokaln¹ sieci¹ Wi-Fi.";
+"WIFI_SSID_OR_PASS_IS_INCORRECT_MESS" = "SSID lub has³o sieci Wi-Fi s¹ nieprawid³owe. Spróbuj ponownie.";
+"THIS_HEATER_TEXT" = "Ten grzejnikr";
+"CAN_NOT_ADD_HEATER_MESS" = "Nie mo¿na dodaæ grzejnika.";
+"ADD_A_HEATER_TEXT" = "Dodaj grzejnik";
+"SEARCHING_FOR_HEATER_TEXT" = "Wyszukiwanie grzejnika…";
+"COULD_NOT_FIND_HEATER_MESS" = "Nie znaleziono grzejnika! Spróbuj ponownie.";
+"CONNECT_TO_HEATER_HOTSPOT_TEXT" = "Po³¹cz z sieci¹ Wi-Fi grzejnika   ";
+"RETRY_TEXT" = "Spróbuj ponownie ";
+"WE_HAVE_FOUND_ONE_HEATER_TEXT" = "Znaleziono 1 grzejnik.";
+"TAP_TO_CONNECT" = "Dotknij, aby po³¹czyæ.";
+"THERE_IS_MORE_THAN_ONE_HEATER_MESS" = "W tym pomieszczeniu znajduje siê wiêcej ni¿ jeden grzejnik.";
+"FOLLOW_THE_INSTRUCTION_TO_CONNECT" = "Postêpuj zgodnie z instrukcjami, aby nawi¹zaæ po³¹czenie.";
+"TRY_AGAIN_TEXT" = "Spróbuj ponownie";
+"ADDING_HEATER_TEXT" = "Dodawanie grzejnika";
+"PLEASE_WAIT_TEXT" = "Czekaj…";
+"HEATER_ADDED_SUCCES_MESS" = "Dodawanie grzejnika powiod³o siê!";
+"ADD_OTHER_HEATER_CONFIRM_MESS" = "Czy chcesz dodaæ kolejny grzejnik?";
+"YES_TEXT" = "Tak";
+"NO_TEXT" = "Nie";
+"INSTRUCTION_FOR_SELECT_YOUR_HEATER_HOTSPOT_MESS" = "Nast¹pi przejœcie do ogólnych ustawieñ aplikacji Solus+. PrzejdŸ rêcznie do ustawieñ Wi-Fi i wybierz sieæ grzejnika. Po jej wybraniu wróæ do aplikacji Solus+.";
+//EditSensorViewController
+"EDIT_SENSOR_TEXT" = "Edytuj czujnik";
+"SENSOR_NAME_TEXT" = "Nazwa czujnika";
+"STATUS_TEXT" = "Status";
+"BATTERY_CHARGE_TEXT" = "Poziom na³adowania";
+"TEMPERATURE_TEXT" = "Temperatura";
+"HUMIDITY_TEXT" = "Wilgotnoœæ";
+"DELETED_SENSOR_SUCCESS_MESS" = "Usuwanie czujnika powiod³o siê!";
+"CAN_NOT_DELETE_SENSOR_MESS" = "Obecnie nie mo¿na usun¹æ czujnika";
+
+//EditSensorViewModel
+"ROOM_SENSOR_TEXT" = "Czujnik %@";
+"NUMBER_HEATERS_CONNECTED_MESS" = "Po³¹czone grzejniki: %d";
+"NOT_PAIRED_WITH_ANY_SOLUS_MESS" = "Nie sparowano z ¿adnym grzejnikiem SOLUS+";
+
+//SensorManagementViewController
+"THIS_SENSOR_TEXT" = "Ten czujnik";
+"CAN_NOT_ADD_SENSOR_MESS" = "Nie mo¿na dodaæ czujnika.";
+"CONNECT_TO_SENSOR_HOTSPOT_TEXT" = "Po³¹cz z sieci¹ Wi-Fi czujnika   ";
+"DONE_TEXT" = "Gotowe";
+"INSTRUCTION_FOR_SELECT_YOUR_SENSOR_HOTSPOT_MESS" = "Nast¹pi przejœcie do ogólnych ustawieñ aplikacji Solus+. PrzejdŸ rêcznie do ustawieñ Wi-Fi i wybierz sieæ czujnika. Po jej wybraniu wróæ do aplikacji Solus+.";
+"SENSOR_CONNECTED_TO_YOUR_LOCAL_WIFI_MESS" = "Czujnik jest po³¹czony z lokaln¹ sieci¹ Wi-Fi.";
+
+//SensorManagementViewModel
+"ADD_A_SENSOR_TO_ROOM_TEXT" = "Dodaj czujnik do: \n<h1>%@</h1>";
+"SEARCHING_FOR_SENSOR_TEXT" = "Wyszukiwanie czujnika…";
+"NO_SENSOR_IN_THIS_ROOM" = "Brak czujnika w tym pomieszczeniu";
+"INSTRUCTION_FOR_SET_UP_SENSOR_MESS" = "Postêpuj zgodnie z instrukcjami, aby skonfigurowaæ czujnik.";
+"DETECT_ONE_SENSOR_MESS" = "Znaleziono <h1>1</h1> czujnik";
+"THERE_IS_MORE_THAN_ONE_SENSOR_MESS" = "W tym pomieszczeniu znajduje siê wiêcej ni¿ jeden czujnik.";
+"ADDING_SENSOR_TEXT" = "Dodawanie czujnika…";
+"SENSOR_ADDED_SUCCES_MESS" = "Dodawanie czujnika powiod³o siê!";
+
+//AlertConfirmViewController
+"YOU_ARE_ABOUT_TO_DELETE" = "Usuwasz";
+"DO_YOU_WANT_TO_CONTINUE" = "Czy chcesz kontynuowaæ?";
+"ALL_SENSORS_HEATERS_WILL_BE_REMOVED_MESS" = "Wszystkie czujniki i grzejniki w tym pomieszczeniu zostan¹ usuniête!";
+"CONFIRM_DELETE_SENSOR_MESS" = "Czy na pewno chcesz usun¹æ ten czujnik?";
+"CONFIRM_DELETE_HEATER_MESS" = "Czy na pewno chcesz usun¹æ ten grzejnik?";
+"DELETE_TEXT" = "Usuñ";
+//RoomDetailViewController
+"ADD_ROOM_SUCCESS_MESS" = "Dodawanie pomieszczenia powiod³o siê!";
+"ROOM_NAME_TEXT" = "Nazwa pomieszczenia";
+"PLEASE_SELECT_ROOM_TYPE" = "Wybierz rodzaj pomieszczenia.";
+//RoomDetailViewModel
+"ADD_A_ROOM_TEXT" = "Dodaj pomieszczenie";
+"CREATE_ROOM_TEXT" = "Utwórz pomieszczenie";
+"EDIT_ROOM_TEXT" = "Edytuj pomieszczenie";
+"CONFIRM_ROOM_DETAILS_TEXT" = "PotwierdŸ szczegó³y pomieszczenia";
+"ROOM_NAME_IS_NOT_EMPTY_MESS" = "Nazwa pomieszczenia nie mo¿e byæ pusta";
+
+//InviteFriendsViewController
+"CONGRATULATIONS_TEXT" = "Gratulacje!";
+"YOU_JUST_CREATED_HOME_MESS" = "Dom zosta³ utworzony. Zaproœ znajomych i bliskich do swojego domu i daj im dostêp do SOLUS+.";
+"INVITE_FRIENDS_TEXT" = "Zaproœ znajomych";
+//InviteFriendsFinishedViewController
+"YOUR_INVITES_HAVE_BEEN_SENT_MESS" = "Zaproszenia zosta³y wys³ane! Dobra robota!";
+"YOUR_FRIENDS_AND_FAMILY_WILL_BE_ABLE_CONTROL_YOUR_HOUSE_MESS" = "Wkrótce Twoi znajomi i bliscy bêd¹ mogli sterowaæ ogrzewaniem Twojego domu.";
+//InviteFriendsDetailViewController
+"SHARE_THE_WARMTH_TEXT" = "Podziel siê ciep³em";
+"INVITE_FRIENDS_AND_FAMILY_MESS" = "Zaproœ znajomych i bliskich do swojego domu";
+"INVITE_TEXT" = "Zaproœ";
+//FriendTableViewCell
+"INVITED_TEXT" = "Zaproszono";
+//CreateHomeViewController
+"WELCOME_HOME_MESS" = "Witamy w SOLUS! Utwórz swój dom";
+"SETUP_YOUR_FIRST_HOME_WITH_SOLUS" = "Skonfiguruj swój pierwszy dom z SOLUS+";
+"LETS_START_TEXT" = "Zaczynajmy";
+"NAME_YOUR_HOME" = "Nazwij swój <h1>dom</h1>";
+// DetailModeViewController
+"EDIT_MODE_TEXT" = "Edytuj tryb";
+
+//ModifyModesViewController
+"MODIFY_TEMPERATURE_MODE_TEXT" = "Zmieñ tryby temperatury";
+"HERE_YOU_CAN_MODIFY_TEMPERATURE_MODES_APPLY_TO_ROOM" = "W tym miejscu mo¿esz modyfikowaæ tryby temperatury u¿ywane w pomieszczeniach.";
+"CUSTOM_TEMPERATURES_TEXT" = "Temperatury niestandardowe";
+//WifiDetailViewController
+"INPUT_YOUR_HOME_WIFI_MESS" = "WprowadŸ poni¿ej dane uwierzytelniaj¹ce domowej sieci Wi-Fi, aby pod³¹czyæ urz¹dzenie.";
+"WIFI_SSID_TEXT" = "SSID SIECI WI-FI";
+"SAVE_TEXT" = "ZAPISZ";
+//WifiDetailViewModel
+"SSID_IS_NOT_EMPTY_MESS" = "SSID nie mo¿e byæ puste";
+//RoomsPopOverViewController
+"PLEASE_SELECT_ROOMS" = "Wybierz pomieszczenia";
+//SmartScheduleDetailViewController
+"CAN_NOT_UPDATE_SMART_SCHEDULE_MESS" = "Obecnie nie mo¿na zaktualizowaæ inteligentnego harmonogramu.";
+"MODIFY_TIMESLOT_TEXT" = "Zmieñ przedzia³ czasowy";
+"APPLIED_TO_ALL_ROOMS" = "Zastosowano do wszystkich pomieszczeñ";
+"START_TEXT" = "Pocz¹tek";
+"END_TEXT" = "Koniec";
+"ROOMS_TEXT" = "Pomieszczenia";
+"ADD_ROOM_TO_TIMESLOT" = " Dodaj pomieszczenie do przedzia³u czasowego";
+"SELECT_MODE_TEXT" = "Wybierz tryb";
+
+//SmartScheduleDetailViewModel
+"START_TIMESLOT_IS_EMPTY_MESS" = "Czas rozpoczêcia jest pusty. WprowadŸ wartoœæ.";
+"END_TIMESLOT_IS_EMPTY_MESS" = "Czas zakoñczenia jest pusty. WprowadŸ wartoœæ.";
+"INVALID_TIMESLOT_MESS" = "Nieprawid³owy przedzia³ czasowy";
+"END_TIMESLOT_MUST_BE_GREATER_MESS" = "Godzina zakoñczenia musi byæ póŸniejsza ni¿ godzina rozpoczêcia.";
+"PLEASE_CHOOSE_AT_LEAST_ONE_ROOM_MESS" = "Dodaj co najmniej jedno pomieszczenie do tego harmonogramu.";
+"ADD_SMARTSCHEDULE_TEXT" = "Dodaj inteligentny harmonogram ";
+"CELSIUS_TEXT" = "Stopnie Celsjusza";
+"FAHRENHEIT_TEXT" = "Stopnie Fahrenheita";
+//
+"CAN_NOT_UPDATE_TEMPERATURE_UNIT_MESS" = "Nie mo¿na zaktualizowaæ jednostki temperatury. Spróbuj ponownie póŸniej.";
+"TEMPERATURE_TEXT" = "Temperatura";
+"AND_FINALLY_HOW_WOULD_YOU_MEASURE_TEMP_MESS" = "Ostatnie pytanie: jak chcesz mierzyæ temperaturê?";
+"CONFIRM_AND_FINISH" = "PotwierdŸ i zakoñcz ";
+//MenuSettingsViewController
+"CAN_NOT_LEAVE_MASTER_MESS" = "Obecnie nie mo¿esz opuœciæ g³ównego domu. Spróbuj ponownie póŸniej.";
+"APP_SETTINGS_TEXT" = "Ustawienia aplikacji";
+"TEMPERATURE_UNITS_TEXT" = "Jednostki temperatury";
+"REPORT_BUGS_AND_PROBLEMS" = "Zg³oœ b³¹d lub problem";
+"MONTH_TEXT" = "Miesi¹c";
+"WEEK_TEXT" = "Tydzieñ";
+"DAY_TEXT" = "Dzieñ";
+
+//MenuSettingsViewModel
+"SPENT_TO_FAR_THIS_MONTH_TEXT" = "Wydatki w tym miesi¹cu";
+"SPENT_TO_FAR_THIS_WEEK_TEXT" = "Wydatki w tym tygodniu";
+"SPENT_TO_FAR_THIS_DAY_TEXT" = "Wydatki w tym dniu";
+"LEAVE_SHARING_HOME_TEXT" = "Opuœæ udostêpnianie domu";
+"SHARING_HOME_MANAGEMENT_TEXT" = "Acceso de múltiples usuarios";
+"ROOM_CONFIGURATION_TEXT" = "Konfiguracja pomieszczeñ";
+"ADD_ROOM_TEXT" = "Dodaj pomieszczenie";
+"SMART_SCHEDULING_TEXT" = "Inteligentny harmonogram";
+"ENERGY_TARIFF_TEXT" = "Taryfa energii elektrycznej";
+"WIFI_SETTINGS_TEXT" = "Ustawienia Wi-Fi";
+"MODITY_TEMPERATURE_MODES_TEXT" = "Zmieñ tryby temperatury";
+//EnergyTariffInputViewController
+"TIMESLOT_TEXT" = "Przedzia³ czasowy";
+"DAYTIME_TEXT" = "Dzieñ";
+"NIGHTTIME_TEXT" = "Noc";
+"PRICE_FER_KWH" = "Cena za kWh";
+
+// EnergyTariffViewController
+"UPDATED_TARIFF_INFO_SUCCESS_MESS" = "Zaktualizowano informacje o taryfie";
+"UPDATED_TARIFF_INFO_FAILED_MESS" = "Aktualizowanie informacji o taryfie nie powiod³o siê";
+"SETUP_YOUR_ENERGY_TARIFF" = "Skonfiguruj taryfê energii elektrycznej";
+"DAYTIME_TARIFF_TEXT" = "Taryfa dzienna";
+"INPUT_DAYTIME_TARIFF_MESS" = "To jest taryfa dzienna. WprowadŸ taryfê dzienn¹ i œledŸ swoje wydatki.";
+"NIGHTTIME_TARIFF_TEXT" = "Taryfa nocna";
+"INPUT_NIGHTTIME_TARIFF_MESS" = "To jest taryfa nocna. WprowadŸ taryfê nocn¹ i œledŸ swoje wydatki.";
+"SKIP_AND_CONTINUE_TEXT" = "Pomiñ i kontynuuj";
+"START_DAYTIME_TARIFF_MUST_DIFFERENT_END_DAYTIME_TARIFF" = "Godzina rozpoczêcia taryfy dziennej musi byæ inna ni¿ godzina jej zakoñczenia";
+"END_DAYTIME_TARIFF_MUST_DIFFERENT_START_DAYTIME_TARIFF" = "Godzina zakoñczenia taryfy dziennej musi byæ inna ni¿ godzina jej rozpoczêcia";
+"START_NIGHTTIME_TARIFF_MUST_DIFFERENT_END_NIGHTTIME_TARIFF" = "Godzina rozpoczêcia taryfy nocnej musi byæ inna ni¿ godzina jej zakoñczenia";
+"END_NIGHTTIME_TARIFF_MUST_DIFFERENT_START_NIGHTTIME_TARIFF" = "Godzina zakoñczenia taryfy nocnej musi byæ inna ni¿ godzina jej rozpoczêcia";
+//EnergyTariffViewModel
+"START_DAYTIME_IS_NOT_EMPTY_MESS" = "Godzina rozpoczêcia taryfy dziennej nie mo¿e byæ pusta";
+"END_DAYTIME_IS_NOT_EMPTY_MESS" = "Godzina zakoñczenia taryfy dziennej nie mo¿e byæ pusta";
+"START_NIGHTTIME_IS_NOT_EMPTY_MESS" = "Godzina rozpoczêcia taryfy nocnej nie mo¿e byæ pusta";
+"END_NIGHTTIME_IS_NOT_EMPTY_MESS" = "Godzina zakoñczenia taryfy nocnej nie mo¿e byæ pusta";
+"TARIFF_NUMBER_DAY_IS_NOT_EMPTY" = "Brak wartoœci w taryfie dziennej";
+"TARIFF_NUMBER_NIGHT_IS_NOT_EMPTY" = "Brak wartoœci w taryfie nocnej";
+"CURRENCY_IS_NOT_EMPTY" = "waluta nie jest pusta";
+// WifiSetupViewController
+"WIFI_CONNECTION_TEXT" = "Po³¹czenie Wi-Fi";
+"CHECKING_WIFI_CONNECTION_MESS" = "Sprawdzanie po³¹czenia Wi-Fi… Zaczekaj.";
+"RETRY_TEXT" = "Spróbuj ponownie";
+
+//LocationSetupViewController
+"ALLOW_SOLUS_USE_YOUR_GEOLOCATION_MESS" = "Zezwól SOLUS+ na dostêp do lokalizacji";
+"THIS_IS_NECESSARY_FOR_THE_CORRECT_DETECTION_OF_YOUR_LOCATION_MESS" = "Jest to niezbêdne do prawid³owego wykrywania lokalizacji i dzia³ania aplikacji.";
+"ALLOW_TEXT" = "Zezwól";
+"DECLINE_TEXT" = "Odmów";
+//TermAndConditionViewController
+"LOADING_TEXT" = "£adowanie…";
+"PRIVACY_POLICY_TEXT" = "Polityka Prywatnoœci";
+"AGREE_AND_CONTINUE_TEXT" = "Zaakceptuj i kontynuuj";
+
+//ManualBoostViewModel
+"UNLIMITED_TEXT" = "Bez ograniczeñ";
+"UNTIL_TEXT" = "Do";
+"MANUAL_BOOST_CAN_NOT_RESET_MESS" = "Obecnie nie mo¿na zresetowaæ rêcznego impulsu";
+"HEATING_TO_TEXT" = "Ogrzewanie do";
+"COOLING_DOWN_TEXT" = "Sch³adzanie";
+
+//ConfigurationRoomViewController
+"EDIT_ROOM_DETAILS_TEXT" = "Edytuj szczegó³y pomieszczenia";
+"MANAGEMENT_TEXT" = "Zarz¹dzanie";
+"MANAGE_ROOM_TEXT" = "Zarz¹dzaj pomieszczeniem";
+"HEATER_MANAGEMENT_TEXT" = "Zarz¹dzanie grzejnikami";
+"SENSOR_MANAGEMENT_TEXT" = "Zarz¹dzanie czujnikami";
+
+//ConfigurationRoomViewModel
+"ROOM_NOT_CONNECT_TO_ANY_SENSOR_MESS" = "Grzejnik %@ nie jest po³¹czony z ¿adnym czujnikiem.";
+"PAIRED_WITH_SENSOR_MESS" = "Sparowano z czujnikiem %@";
+"SENSOR_NOT_CONNECT_TO_ANY_HEATER_MESS" = "Czujnik %@ nie ³¹czy siê z ¿adnymi grzejnikami.";
+"SENSOR_PAIRED_WITH_HEATERS_MESS" = "Czujnik %@ jest obecnie sparowany z tymi grzejnikami.";
+
+//ModeView
+"ECO_MODE_TEXT" = "Tryb Eko";
+"COMFORT_MODE_TEXT" = "Tryb Komfort";
+"NIGHT_MODE_TEXT" = "Tryb Noc";
+"SCHEDULE_TEXT" = "Harmonogram";
+
+//SelectedRoomViewController
+"TURN_ON_TEXT" = "w³¹cz";
+"TURN_OFF_TEXT" = "wy³¹cz";
+"ON_TEXT" = "W³.";
+"OFF_TEXT" = "Wy³.";
+"PLEASE_SET_A_TIMER_FOR_MANUAL_BOOST_MESS" = "Ustaw odliczanie rêcznego impulsu.";
+"UPDATING_MANUAL_BOOST_TEXT" = "aktualizowanie rêcznego impulsu";
+"MANUAL_BOOST_UPDATE_SUCCESS_MESS" = "Pomyœlnie zaktualizowano rêczny impuls!";
+"MANUAL_BOOST_CAN_NOT_UPDATE_MESS" = "Obecnie nie mo¿na zaktualizowaæ rêcznego impulsu";
+"RESET_BOOSTING_SUCCESS_MESS" = "Pomyœlnie zresetowano rêczny impuls!";
+"MANUAL_BOOST_TIMEOUT_TEXT" = "Limit czasu rêcznego impulsu";
+"ROOM_SETTINGS_TEXT" = "Ustawienia pomieszczenia  ";
+"CHANGE_MODE_IS_NOT_POSSIBLE_MESS" = "Zmiana trybu nie jest mo¿liwa. Najpierw po³¹cz siê z grzejnikiem w swoim pomieszczeniu.";
+"CAN_NOT_UPDATE_MODE_MESS" = "Nie mo¿na zaktualizowaæ trybu!";
+
+//SelectedRoomViewModel
+"CAN_NOT_UPDATE_SETTING_MODE" = "Nie mo¿na zaktualizowaæ trybu ustawieñ";
+"BOOSTING_UNTIL_YOU_CANCEL" = "Impuls do odwo³ania";
+"BOOSTING_UNTIL_TIME" = "Impuls do %@";
+"THERE_IS_NO_SCHEDULE_MESS" = "Obecnie nie ma ustawionego harmonogramu. PrzejdŸ do menu ustawieñ, aby ustawiæ harmonogram.";
+"CAN_NOT_UPDATE_SCHEDULE_MODE_MESS" = "Nie mo¿na zaktualizowaæ trybu harmonogramu";
+//HomeViewController
+"THIS_IS_YOUR_DASHBOARD" = "To jest Twój pulpit SOLUS+.";
+"LETS_GET_STARTED_SETTING_UP_YOUR_SOLUS" = "Zacznijmy konfigurowaæ Twoj¹ sieæ SOLUS!";
+"ADD_THE_FIRST_ROOM_MESS" = "UR_SOLUS    FR Zacznijmy konfigurowaæ Twoj¹ sieæ SOLUS!
+ADD_THE_FIRST_ROOM_MESS    FR Dodaj pierwsze pomieszczenie, które chcesz ogrzaæ!";
+//HomeCell
+"HEATING_UP_TEXT" = "Ogrzewanie";
+//ForgotPasswordViewController
+"RESET_PASS_SUCCESS_MESS" = "Resetowanie has³a powiod³o siê. SprawdŸ pocztê, aby utworzyæ nowe has³o!";
+"RESET_PASSWORD_TEXT" = "Zresetuj has³o";
+"PLEASE_ENTER_YOUR_EMAIL_FOR_RESET_PASS_MESS" = "WprowadŸ swój adres e-mail. Otrzymasz link do zresetowania has³a poczt¹ elektroniczn¹.";
+"ENTER_EMAIL_HERE_TEXT" = "WprowadŸ adres e-mail tutaj";
+"SEND_LINK_TEXT" = "Wyœlij odnoœnik";
+//SignUpViewController
+"TOO_SHORT_TEXT" = "Za ma³o znaków!";
+"SIGN_UP_SUCCESS_MESS" = "Rejestrowanie powiod³o siê!";
+//
+"TERMS_AND_CONDITIONS_TEXT" = "Términos y condiciones";
+"LEGAL_TEXT" = "Legal";
+"CONTACT_FOR_HELP_MESSAGE" = "Póngase en contacto con <h1> info@koleda.co </h1> para recibir los datos recopilados previamente o eliminar su cuenta";
+"ENTER_YOUR_NAME_TEXT" = "Introduzca su nombre aquí";
+"ENTER_PASSWORD_TEXT" = "Ingrese la contraseña aquí";
+"ENTER_HOME_ID_TEXT" = "Ingrese la identificación de la casa aquí";
+
+

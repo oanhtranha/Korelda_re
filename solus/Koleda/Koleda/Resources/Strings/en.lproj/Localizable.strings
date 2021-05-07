@@ -1,0 +1,421 @@
+/* 
+  Localizable.strings
+  Koleda
+
+  Created by Oanh tran on 7/2/19.
+  Copyright © 2019 koleda. All rights reserved.
+*/
+
+
+"ERROR_TITLE" = "Error";
+"PLACEHOLDER_ERROR_MESSAGE" = "Something wrong happened";
+"ERROR_GENERAL" = "There was a connection error. Please try again later.";
+"LOGIN_SESSSION_EXPIRED" = "Login session expired.";
+"TERM_AND_CONDITION_CONTENT" = "<p>Koleda built the Solus app as a Commercial app. This SERVICE is provided by Koleda and is intended for use as is.</p><p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p><p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p><p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Solus unless otherwise defined in this Privacy Policy.</p><p>Information Collection and Use</p><p>For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.</p><p>The app does use third party services that may collect information used to identify you.</p><p>Link to privacy policy of third party service providers used by the app</p>";
+// WIFI SCREEN
+"OK" = "OK";
+"OPEN_SETTINGS_TITLE" = "Go to settings";
+"CANCEL" = "Cancel";
+"ALLOW_ACCESS_LOCATION_IN_SETTING_MESSAGE" = "This app requires access to your Location to verify current sensor location";
+"ALLOW_ACCESS_LOCATION_IN_SETTING_TITLE" = "Please change your Location permissions in settings";
+"ERROR_CONNECT_WIFI_MESSAGE" = "Seems you’re not connected to the Wi-Fi. Please try again!";
+"CONNECT_WIFI_MESSAGE" = "Checking Wi-Fi connection. Please wait…";
+// HOME SCREEN
+"SURFFIXES_HOME_TITLE" = "'s Home";
+// ROOM SCREEN
+"FAILED_TO_UPDATE_ROOM" = "Updating Room failed. Please try again later.";
+"CANCEL" = "Cancel";
+"DELETE" = "Delete";
+"DELETE_THIS_ROOM_TITLE" = "Delete this room?";
+"DELETE_THIS_ROOM_MESSAGE" = "All sensors & heaters in this room will be removed.";
+// LOGIN SCREEN
+"INVALID_PASSWORD_MESSAGE" = "password length must be between 6 and 21 characters. Characters allowed – [a - z]  [A - Z] [0-9] [’@ & # . -]";
+//SIGN UP
+"EMAIL_EXISTED_MESSAGE" = "This email is already registered. Please try with other email.";
+"EMAIL_NOT_EXISTED_MESSAGE" = "Email address not found, Please update your email into facebook account.";
+// ADD DEVICE
+"DEVICE_EXISTED_MESSAGE" = "already exists in another room.";
+// SIGN IN WITH APPLE
+"SHARE_APPLE_EMAIL_REQUIRED_MESSAGE" = "Solus+ uses your email as a unique ID for the app management. Please share your email to continue with Apple Sign In.";
+// JOIN HOME
+"EMAIL_NOT_AVAILABLE_MESSAGE" = "Email address is already in use.";
+"HOME_ID_INVALID_MESSAGE" = "Home Id is not valid";
+"EMAIL_IS_NOT_INVITED_MESSAGE" = "Your email is not invited to join this home";
+//INVITE FRIEND
+"EMAIL_INVALID_MESSAGE" = "Email is invalid";
+"EMAIL_SIMILAR_MESSAGE" = "inviting yourself is invalid";
+"EMAIL_MASTER_MESSAGE" = "A master account with this email already exists";
+"EMAIL_GUEST_MESSAGE" = "A guest account with this email already exists";
+//FORGOT PASS
+"USER_NOT_FOUND_MESSAGE" = "User not found with email";
+// OnboardingViewController
+"WELCOME" = "Welcome";
+"SUB_TITLE" = "This is Solus+, the radiator of the future.";
+"SIGN_UP" = "Sign up";
+"CONTINUE_WITH_FACEBOOK" = "Continue with Facebook";
+"CONTINUE_WITH_GOOGLE" = "Continue with Google";
+"CONTINUE_WITH_APPLE" = " Continue with Apple";
+"JOIN_HOME" = " Join a Home";
+"ALREADY_HAVE_A_ACCOUNT" = " Already have an account?";
+"LOGIN" = "Login";
+"LOGIN_APPLE_FAILED_TEXT" = "Login Apple Failed";
+"WE_CAN_NOT_LOGIN_APPLE_MESS" = "We can't login by Apple now. Please try again later";
+"LOGIN_GOOGLE_FAILED_TEXT" = "Login Google Failed";
+"WE_CAN_NOT_LOGIN_GOOGLE_MESS" = "We can't login by Google now. Please try again later";
+"LOGIN_FACEBOOK_FAILED_TEXT" = "Login Facebook Failed";
+"WE_CAN_NOT_LOGIN_FACEBOOK_MESS" = "We can't login by Facebook now. Please try again later";
+"PLEASE_SELECT_SHARE_EMAIL_CONTINUE_WITH_APPLE_SIGN_IN" = "Please select Share My Email to continue with Apple Sign In";
+// LoginViewController
+"EMAIL_TITLE" = "EMAIL";
+"PASSWORD_TITLE" = "PASSWORD";
+"LOGIN_VIA_GOOGLE" = "Login via Google";
+"LOGIN_VIA_FACEBOOK" = "Login via Facebook";
+"LOGIN_VIA_APPLE" = "Login via Apple";
+"FORGOT_PASSWORD" = "Forgot password?";
+"SIGN_IN" = "Sign in";
+"LOGIN_FAILED_TEXT" = "Login Failed";
+"EMAIL_OR_PASS_IS_INVALID" = "Email or password is invalid";
+// SelectedRoomViewController
+"ADD_ROOM_ERROR_MESSAGE" = "You can't %@ this room now. Please try again later.";
+//InstructionView
+"ADD_SENSOR_INSTRUCTION_TITLE_1" = "Caution when setting a room,\nonly turn on <h>one sensor</h>\nat a time.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_1" = "<b>Warning:</b> In order to make setting up your new SOLUS+ home system as easy as possible, we recommend setting up each heater and sensor individually, one at a time. We recommend setting up the sensor in the exact location of installation to ensure a stable wifi connection.";
+"ADD_SENSOR_INSTRUCTION_TITLE_2" = "Open sensor by turning the <h>top part of the casing</h> 45 degrees.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_2" = "Open up the SOLUS temperature sensor by turning the top half of the outer casing 45 degrees clockwise. Make sure the SOLUS temperature sensor is powered using a CR123A battery.";
+"ADD_SENSOR_INSTRUCTION_TITLE_3" = "Turn sensor by <h>pressing down</h>\nthe button.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_3" = "Press down the Button - the LED should turn on and flash slowly.\n<b>Warning</b>: If the LED does not flash slowly, press and hold the button for at least 10 seconds. The LED should then flash quickly signaling that the temperature sensor has been reset.";
+"ADD_SENSOR_INSTRUCTION_TITLE_4" = "Close sensor by reattaching <h>casing</h> and twisting 45 degrees.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_4" = "You can close the sensor by realigning the top and bottom section of the outer casing and turning 45 degrees anti-clockwise.";
+"ADD_SENSOR_INSTRUCTION_TITLE_5" = "Connect directly to SOLUS temperature sensor via wifi.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_5" = "To do this simply: Open Settings > WiFi and connect to the WiFi network created by SOLUS temperature sensor, e.g. solus-35FA58.";
+"ADD_SENSOR_INSTRUCTION_TITLE_6" = "Connect to Sensor Wi-fi\naccess point.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_6" = "1. Connect directly to the SOLUS local wifi connection by connecting to shellyht-XXXXXX or Solus-Sensor-XXXXXX in your wi-fi settings.\n2. Once connected, return to the SOLUS+ app and input the wifi credentials of your home network.\n3. Once you have inputted the correct credentials, rejoin your home network and if successful, the app will detect the SOLUS sensor.";
+"ADD_HEATER_INSTRUCTION_TITLE_1" = "Caution when setting a room,\nonly turn on one heater at a time.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_1" = "<b>Warning:</b>\nIn order to make setting up your new SOLUS+ home system as easy as possible, we recommend setting up each heater and sensor individually, one at a time. We recommend setting up the heater in the exact location of installation to ensure a stable wifi connection.";
+"ADD_HEATER_INSTRUCTION_TITLE_2" = "Plug Solus in.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_2" = "Connect SOLUS+ to a power outlet and ensure SOLUS+ is fixed firmly in place using the included wall brackets. When SOLUS+ is connected to the power outlet, press the power button on the side of SOLUS+ to start the set-up procedure. If SOLUS+ is correctly powered, the power button will light up.";
+
+"ADD_HEATER_INSTRUCTION_TITLE_3" = "Connect to Heater Wi-fi\naccess point.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_3" = "Connect directly to SOLUS+ via wifi. To do this simply:\nOpen Settings > WiFi and connect to the WiFi network created by SOLUS, e.g. solus-35FA58.\n<b>Warning:</b> If SOLUS+ does not appear, unplug the device. Re-connect to the power outlet and quickly press the power button on and off 5 times within 30secs. This will reset the wireless settings.";
+"ADD_HEATER_INSTRUCTION_TITLE_4" = "Connect to Heater Wi-fi\naccess point.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_4" = "1. Connect directly to the SOLUS local wifi connection by connecting to SOLUS-Heater-XXXXXX or Shelly1pm-XXXXXX in your wi-fi settings.\n2. Once connected, return to the SOLUS+ app and input the wifi credentials of your home network.\n3. Once you have inputted the correct credentials, rejoin your home network and if successful, the app will detect the SOLUS heater.";
+// RoomViewModel
+"TURNED_OFF_VIA_SCHEDULE" = "Turned off via Smart Scheduling";
+"TARGET_TEMPERATURE" = "Target temperature";
+"MODE_TEXT" = "Mode";
+//ScheduleOfDayViewModel
+"MON_ABBR" = "MON";
+"TUE_ABBR" = "TUE";
+"WED_ABBR" = "WED";
+"THU_ABBR" = "THU";
+"FRI_ABBR" = "FRI";
+"SAT_ABBR" = "SAT";
+"SUN_ABBR" = "SUN";
+
+"MON_TEXT" = "Monday";
+"TUE_TEXT" = "Tuesday";
+"WED_TEXT" = "Wednesday";
+"THU_TEXT" = "Thursday";
+"FRI_TEXT" = "Friday";
+"SAT_TEXT" = "Saturday";
+"SUN_TEXT" = "Sunday";
+"NUMBER_ROOMS_CAN_NOT_SHOW_MESSAGE" = "%d rooms";
+"MORE_ROOMS_CAN_NOT_SHOW_MESSAGE" = "+ %d more rooms";
+//RoomType
+"LIVING_ROOM_TEXT" = "LIVING ROOM";
+"MUSIC_ROOM_TEXT" = "MUSIC ROOM";
+"HALLWAY_TEXT" = "HALLWAY";
+"READING_ROOM_TEXT" = "READING ROOM";
+"BED_ROOM_TEXT" = "BEDROOM";
+"KIDS_ROOM_TEXT" = "KID'S ROOM";
+"BATHROOM_TEXT" = "BATHROOM";
+"WORKING_ROOM_TEXT" = "WORKING ROOM";
+"KITCHEN_TEXT" = "KITCHEN";
+// BaseViewController
+"LOGOUT_TEXT" = "Logout";
+//ProgressBarView
+"STEP_TEXT" = "Step";
+//JoinHomeViewController
+"JOIN_HOME_TEXT" = "Join Home";
+"NAME_TEXT" = "NAME";
+"EMAIL_TEXT" = "EMAIL";
+"CREATE_PASSWORD_TEXT" = "CREATE PASSWORD";
+"HOME_ID_TEXT" = "HOME ID";
+"NEXT_TEXT" = "Next";
+"JOIN_HOME_SUCCESS_MESS" = "Join Home Successfull!";
+"KOLEDA_TEXT" = "Koleda";
+// JoinHomeViewModel
+"LOGIN_FAILED_TRY_AGAIN_MESS" = "Login Failed, Please try again later.";
+"NAME_IS_NOT_EMPTY_MESS" = "Name is not Empty";
+"NAME_IS_INVALID_MESS" = "Name is InValid";
+"EMAIL_IS_NOT_EMPTY_MESS" = "Email is not Empty";
+"EMAIL_IS_INVALID_MESS" = "Email is InValid";
+"PASS_IS_NOT_EMPTY_MESS" = "Password is not Empty";
+"HOME_ID_IS_NOT_EMPTY_MESS" = "HomeID is not Empty";
+"HOME_ID_IS_INVALID_MESS" = "Invalid Home ID";
+//InstructionForHeaterViewController
+"SKIP_TEXT" = "Skip";
+//HeatersManagementViewController
+"EDIT_HEATERS_TEXT" = "Edit Heaters";
+"CONFIRM_TEXT" = "Confirm";
+"DELETED_HEATER_SUCCESS_MESS" = "Heater deleted Successfully!";
+"CAN_NOT_DELETE_HEATER" = "Can't delete heater now.";
+"SENSOR_IS_PAIRED_WITH_HEATERS_MESS" = "%@ Sensor is currently paired with these heaters";
+"SENSOR_IS_NOT_PAIRED_ANY_HEATER_MESS" = "%@ Sensor isn't connecting to any heater.";
+"HEATERS_TEXT" = "Heaters";
+"ADD_HEATERS_TEXT" = "Add heaters";
+"ACTIVE_TEXT" = "Active";
+"INACTIVE_TEXT" = "Inactive";
+"REMOVE_TEXT" = "Remove";
+//AddHeaterManagementCollectionViewCell
+"SOLUS_TEXT" = "SOLUS+";
+"FREE_SLOT_TEXT" = "Free Slot";
+"ADD_TEXT" = "Add";
+//AddHeaterViewController
+"UPDATE_WIFI_SETTINGS_INFO_MESS" = "Please update the Wi-fi Settings info.";
+"SUCCESSFULL_TEXT" = "Successfull!";
+"HEATER_CONNECTED_TO_YOUR_LOCAL_WIFI_MESS" = "Heater connected to your local wifi.";
+"WIFI_SSID_OR_PASS_IS_INCORRECT_MESS" = "Wifi ssid or password is incorrect, Please check again.";
+"THIS_HEATER_TEXT" = "This heater";
+"CAN_NOT_ADD_HEATER_MESS" = "Can not add Heater.";
+"ADD_A_HEATER_TEXT" = "Add a heater";
+"SEARCHING_FOR_HEATER_TEXT" = "Searching for heater...";
+"COULD_NOT_FIND_HEATER_MESS" = "Could not find heater! Please try again.";
+"CONNECT_TO_HEATER_HOTSPOT_TEXT" = "Connect to Heater's hotspot   ";
+"RETRY_TEXT" = "Retry ";
+"WE_HAVE_FOUND_ONE_HEATER_TEXT" = "We have found 1 heater.";
+"TAP_TO_CONNECT" = "Tap to connect.";
+"THERE_IS_MORE_THAN_ONE_HEATER_MESS" = "There’s more than one heater in this room.";
+"FOLLOW_THE_INSTRUCTION_TO_CONNECT" = "Follow the instructions to connect.";
+"TRY_AGAIN_TEXT" = "Try again";
+"ADDING_HEATER_TEXT" = "Adding Heater";
+"PLEASE_WAIT_TEXT" = "Please wait...";
+"HEATER_ADDED_SUCCES_MESS" = "Heater added successfully!";
+"ADD_OTHER_HEATER_CONFIRM_MESS" = "Do you want add another heater?";
+"YES_TEXT" = "Yes";
+"NO_TEXT" = "No";
+"INSTRUCTION_FOR_SELECT_YOUR_HEATER_HOTSPOT_MESS" = "You will be directed to your Solus+ app's general settings.  Please navigate manually to Wifi-settings and select your heater's hotspot.  Once selected, you can return to your Solus+ app.";
+//EditSensorViewController
+"EDIT_SENSOR_TEXT" = "Edit Sensor";
+"SENSOR_NAME_TEXT" = "Sensor name";
+"STATUS_TEXT" = "Status";
+"BATTERY_CHARGE_TEXT" = "Battery Charge";
+"TEMPERATURE_TEXT" = "Temperature";
+"HUMIDITY_TEXT" = "Humidity";
+"DELETED_SENSOR_SUCCESS_MESS" = "Sensor deleted Successfully!";
+"CAN_NOT_DELETE_SENSOR_MESS" = "Sensor can't delete now";
+//EditSensorViewModel
+"ROOM_SENSOR_TEXT" = "%@ Sensor";
+"NUMBER_HEATERS_CONNECTED_MESS" = "%d heaters connected";
+"NOT_PAIRED_WITH_ANY_SOLUS_MESS" = "Not Paired with any SOLUS+";
+//SensorManagementViewController
+"THIS_SENSOR_TEXT" = "This sensor";
+"CAN_NOT_ADD_SENSOR_MESS" = "Can not add Sensor.";
+"CONNECT_TO_SENSOR_HOTSPOT_TEXT" = "Connect to sensor's hotspot   ";
+"DONE_TEXT" = "Done";
+"INSTRUCTION_FOR_SELECT_YOUR_SENSOR_HOTSPOT_MESS" = "You will be directed to your Solus+ app's general settings.  Please navigate manually to Wifi-settings and select your sensor's hotspot.  Once selected, you can return to your Solus+ app.";
+"SENSOR_CONNECTED_TO_YOUR_LOCAL_WIFI_MESS" = "Sensor connected to your local wifi.";
+//SensorManagementViewModel
+"ADD_A_SENSOR_TO_ROOM_TEXT" = "Add a sensor to\n<h1>%@</h1>";
+"SEARCHING_FOR_SENSOR_TEXT" = "Searching for sensor...";
+"NO_SENSOR_IN_THIS_ROOM" = "No sensor in this Room";
+"INSTRUCTION_FOR_SET_UP_SENSOR_MESS" = "Please follow instructions to setup Sensor.";
+"DETECT_ONE_SENSOR_MESS" = "We have found <h1>1</h1> sensor.";
+"THERE_IS_MORE_THAN_ONE_SENSOR_MESS" = "There’s more than one sensor in this room.";
+"ADDING_SENSOR_TEXT" = "Adding sensor...";
+"SENSOR_ADDED_SUCCES_MESS" = "Sensor added successfully!";
+//AlertConfirmViewController
+"YOU_ARE_ABOUT_TO_DELETE" = "You are about to delete";
+"DO_YOU_WANT_TO_CONTINUE" = "Do you want to continue?";
+"ALL_SENSORS_HEATERS_WILL_BE_REMOVED_MESS" = "All sensors and heaters in this room will be deleted!";
+"CONFIRM_DELETE_SENSOR_MESS" = "Are you sure you want to delete this sensor?";
+"CONFIRM_DELETE_HEATER_MESS" = "Are you sure you want to delete this heater?";
+"DELETE_TEXT" = "Delete";
+//RoomDetailViewController
+"ADD_ROOM_SUCCESS_MESS" = "Add Room Successfully!";
+"ROOM_NAME_TEXT" = "Room name";
+"PLEASE_SELECT_ROOM_TYPE" = "Please Select Room Type.";
+//RoomDetailViewModel
+"ADD_A_ROOM_TEXT" = "Add a Room";
+"CREATE_ROOM_TEXT" = "Create Room";
+"EDIT_ROOM_TEXT" = "Edit Room";
+"CONFIRM_ROOM_DETAILS_TEXT" = "Confirm Room Details";
+"ROOM_NAME_IS_NOT_EMPTY_MESS" = "Room Name is not Empty";
+//InviteFriendsViewController
+"CONGRATULATIONS_TEXT" = "Congratulations!";
+"YOU_JUST_CREATED_HOME_MESS" = "You just created a home. Invite your friends and family to your home and give them access to SOLUS+";
+"INVITE_FRIENDS_TEXT" = "Invite Friends";
+//InviteFriendsFinishedViewController
+"YOUR_INVITES_HAVE_BEEN_SENT_MESS" = "Your invites have been sent! Well done!";
+"YOUR_FRIENDS_AND_FAMILY_WILL_BE_ABLE_CONTROL_YOUR_HOUSE_MESS" = "Soon your friends and family will be able to control your house heating.";
+//InviteFriendsDetailViewController
+"SHARE_THE_WARMTH_TEXT" = "Share the warmth";
+"INVITE_FRIENDS_AND_FAMILY_MESS" = "Invite friends and family into your home";
+"INVITE_TEXT" = "Invite";
+//FriendTableViewCell
+"INVITED_TEXT" = "Invited";
+//CreateHomeViewController
+"WELCOME_HOME_MESS" = "Welcome to SOLUS! Create your Home";
+"SETUP_YOUR_FIRST_HOME_WITH_SOLUS" = "Setup your first home with SOLUS+";
+"LETS_START_TEXT" = "Let's start";
+"NAME_YOUR_HOME" = "Name your <h1>Home</h1>";
+// DetailModeViewController
+"EDIT_MODE_TEXT" = "Edit Mode";
+//ModifyModesViewController
+"MODIFY_TEMPERATURE_MODE_TEXT" = "Modify Temperatures Mode";
+"HERE_YOU_CAN_MODIFY_TEMPERATURE_MODES_APPLY_TO_ROOM" = "Here you can modify temperature modes that apply to rooms.";
+"CUSTOM_TEMPERATURES_TEXT" = "Custom Temperatures";
+//WifiDetailViewController
+"INPUT_YOUR_HOME_WIFI_MESS" = "Input your home wifi credentials below to connect the device to your home network";
+"WIFI_SSID_TEXT" = "WIFI SSID";
+"SAVE_TEXT" = "SAVE";
+//WifiDetailViewModel
+"SSID_IS_NOT_EMPTY_MESS" = "ssid is not Empty";
+//RoomsPopOverViewController
+"PLEASE_SELECT_ROOMS" = "Please select the rooms";
+//SmartScheduleDetailViewController
+"CAN_NOT_UPDATE_SMART_SCHEDULE_MESS" = "Can't update smart schedule now.";
+"MODIFY_TIMESLOT_TEXT" = "Modify Timeslot";
+"APPLIED_TO_ALL_ROOMS" = "Applied to all rooms";
+"START_TEXT" = "Start";
+"END_TEXT" = "End";
+"ROOMS_TEXT" = "Rooms";
+"ADD_ROOM_TO_TIMESLOT" = " Add room to timeslot";
+"SELECT_MODE_TEXT" = "Select Mode";
+//SmartScheduleDetailViewModel
+"START_TIMESLOT_IS_EMPTY_MESS" = "Start Timeslot is empty. Please input this";
+"END_TIMESLOT_IS_EMPTY_MESS" = "End Timeslot is empty. Please input this";
+"INVALID_TIMESLOT_MESS" = "Invalid Timeslot";
+"END_TIMESLOT_MUST_BE_GREATER_MESS" = "End timeslot must be greater than Start timeslot";
+"PLEASE_CHOOSE_AT_LEAST_ONE_ROOM_MESS" = "Please choose at least one room for this schedule.";
+"ADD_SMARTSCHEDULE_TEXT" = "Add SmartSchedule ";
+"CELSIUS_TEXT" = "Celsius";
+"FAHRENHEIT_TEXT" = "Fahrenheit";
+//
+"CAN_NOT_UPDATE_TEMPERATURE_UNIT_MESS" = "Can't Update Temperature Unit. Please try again later";
+"TEMPERATURE_TEXT" = "Temperature";
+"AND_FINALLY_HOW_WOULD_YOU_MEASURE_TEMP_MESS" = "And finally, how would you measure temperatures?";
+"CONFIRM_AND_FINISH" = "Confirm & Finish ";
+//MenuSettingsViewController
+"CAN_NOT_LEAVE_MASTER_MESS" = "Can't Leave Master Home now. Please try again later";
+"APP_SETTINGS_TEXT" = "App Settings";
+"TEMPERATURE_UNITS_TEXT" = "Temperature units";
+"REPORT_BUGS_AND_PROBLEMS" = "Report bugs and problems";
+"MONTH_TEXT" = "Month";
+"WEEK_TEXT" = "Week";
+"DAY_TEXT" = "Day";
+//MenuSettingsViewModel
+"SPENT_TO_FAR_THIS_MONTH_TEXT" = "Spent so far this month";
+"SPENT_TO_FAR_THIS_WEEK_TEXT" = "Spent so far this week";
+"SPENT_TO_FAR_THIS_DAY_TEXT" = "Spent so far this day";
+"LEAVE_SHARING_HOME_TEXT" = "Leave Sharing Home";
+"SHARING_HOME_MANAGEMENT_TEXT" = "Multiple User Access";
+"ROOM_CONFIGURATION_TEXT" = "Room Configuration";
+"ADD_ROOM_TEXT" = "Add Room";
+"SMART_SCHEDULING_TEXT" = "Smart Scheduling";
+"ENERGY_TARIFF_TEXT" = "Energy Tariff";
+"WIFI_SETTINGS_TEXT" = "Wi-fi Settings";
+"MODITY_TEMPERATURE_MODES_TEXT" = "Modify Temperature Modes";
+//EnergyTariffInputViewController
+"TIMESLOT_TEXT" = "Timeslot";
+"DAYTIME_TEXT" = "Daytime";
+"NIGHTTIME_TEXT" = "Nighttime";
+"PRICE_FER_KWH" = "Price per KWh";
+// EnergyTariffViewController
+"UPDATED_TARIFF_INFO_SUCCESS_MESS" = "Updated Tariff info successfull";
+"UPDATED_TARIFF_INFO_FAILED_MESS" = "Update Tariff info Failed";
+"SETUP_YOUR_ENERGY_TARIFF" = "Setup your energy tariff";
+"DAYTIME_TARIFF_TEXT" = "Daytime Tariff";
+"INPUT_DAYTIME_TARIFF_MESS" = "This is the daytime tariff. Input your day time tariff and track your spending.";
+"NIGHTTIME_TARIFF_TEXT" = "Nighttime Tariff";
+"INPUT_NIGHTTIME_TARIFF_MESS" = "This is the nighttime tariff. Input your night time tariff and track your spending.";
+"SKIP_AND_CONTINUE_TEXT" = "Skip and continue";
+"START_DAYTIME_TARIFF_MUST_DIFFERENT_END_DAYTIME_TARIFF" = "Start Daytime tariff must be different End Daytime tariff";
+"END_DAYTIME_TARIFF_MUST_DIFFERENT_START_DAYTIME_TARIFF" = "End Daytime tariff must be different Start Daytime tariff";
+"START_NIGHTTIME_TARIFF_MUST_DIFFERENT_END_NIGHTTIME_TARIFF" = "Start Nighttime tariff must be different End Nighttime tariff";
+"END_NIGHTTIME_TARIFF_MUST_DIFFERENT_START_NIGHTTIME_TARIFF" = "End Nighttime tariff must be different Start Nighttime tariff";
+//EnergyTariffViewModel
+"START_DAYTIME_IS_NOT_EMPTY_MESS" = "Start daytime tariff is not empty";
+"END_DAYTIME_IS_NOT_EMPTY_MESS" = "End daytime tariff is not empty";
+"START_NIGHTTIME_IS_NOT_EMPTY_MESS" = "Start nighttime tariff is not empty";
+"END_NIGHTTIME_IS_NOT_EMPTY_MESS" = "End nighttime tariff is not empty";
+"TARIFF_NUMBER_DAY_IS_NOT_EMPTY" = "Tariff number daytime is missing";
+"TARIFF_NUMBER_NIGHT_IS_NOT_EMPTY" = "Tariff number nighttime is missing";
+"CURRENCY_IS_NOT_EMPTY" = "currency is not empty";
+// WifiSetupViewController
+"WIFI_CONNECTION_TEXT" = "Wi-fi Connection";
+"CHECKING_WIFI_CONNECTION_MESS" = "Checking wifi connection...Please wait.";
+"RETRY_TEXT" = "Retry";
+//LocationSetupViewController
+"ALLOW_SOLUS_USE_YOUR_GEOLOCATION_MESS" = "Allow SOLUS+ use your geolocation";
+"THIS_IS_NECESSARY_FOR_THE_CORRECT_DETECTION_OF_YOUR_LOCATION_MESS" = "This is necessary for the correct detection of your location and app work";
+"ALLOW_TEXT" = "Allow";
+"DECLINE_TEXT" = "Decline";
+//TermAndConditionViewController
+"LOADING_TEXT" = "Loading...";
+"PRIVACY_POLICY_TEXT" = "Privacy Policy";
+"AGREE_AND_CONTINUE_TEXT" = "Agree and Continue";
+//ManualBoostViewModel
+"UNLIMITED_TEXT" = "Unlimited";
+"UNTIL_TEXT" = "Until";
+"MANUAL_BOOST_CAN_NOT_RESET_MESS" = "Manual Boost can't reset now";
+"HEATING_TO_TEXT" = "Heating to";
+"COOLING_DOWN_TEXT" = "Cooling down";
+//ConfigurationRoomViewController
+"EDIT_ROOM_DETAILS_TEXT" = "Edit Room Details";
+"MANAGEMENT_TEXT" = "Management";
+"MANAGE_ROOM_TEXT" = "Manage room";
+"HEATER_MANAGEMENT_TEXT" = "Heater management";
+"SENSOR_MANAGEMENT_TEXT" = "Sensor management";
+//ConfigurationRoomViewModel
+"ROOM_NOT_CONNECT_TO_ANY_SENSOR_MESS" = "%@ is not connect to any sensor.";
+"PAIRED_WITH_SENSOR_MESS" = "Paired with %@ Sensor";
+"SENSOR_NOT_CONNECT_TO_ANY_HEATER_MESS" = "%@ Sensor isn't connecting to any heater.";
+"SENSOR_PAIRED_WITH_HEATERS_MESS" = "%@ Sensor is currently paired with these heaters";
+//ModeView
+"ECO_MODE_TEXT" = "Eco mode";
+"COMFORT_MODE_TEXT" = "Comfort mode";
+"NIGHT_MODE_TEXT" = "Night mode";
+"SCHEDULE_TEXT" = "Schedule";
+//SelectedRoomViewController
+"TURN_ON_TEXT" = "turn on";
+"TURN_OFF_TEXT" = "turn off";
+"ON_TEXT" = "On";
+"OFF_TEXT" = "Off";
+"PLEASE_SET_A_TIMER_FOR_MANUAL_BOOST_MESS" = "Please set a timer for manual boost.";
+"UPDATING_MANUAL_BOOST_TEXT" = "updating manual boost";
+"MANUAL_BOOST_UPDATE_SUCCESS_MESS" = "Manual Boost updated Successfully!";
+"MANUAL_BOOST_CAN_NOT_UPDATE_MESS" = "Manual Boost can't update now";
+"RESET_BOOSTING_SUCCESS_MESS" = "Reset Manual Boost Successfully!";
+"MANUAL_BOOST_TIMEOUT_TEXT" = "Manual Boost Timeout";
+"ROOM_SETTINGS_TEXT" = "Room Settings  ";
+"CHANGE_MODE_IS_NOT_POSSIBLE_MESS" = "Changing modes is not possible. Please connect a heater to your room, first";
+"CAN_NOT_UPDATE_MODE_MESS" = "can't update Mode!";
+//SelectedRoomViewModel
+"CAN_NOT_UPDATE_SETTING_MODE" = "Can't update setting mode";
+"BOOSTING_UNTIL_YOU_CANCEL" = "Boosting until you cancel";
+"BOOSTING_UNTIL_TIME" = "Boosting until %@";
+"THERE_IS_NO_SCHEDULE_MESS" = "There is no schedule currently set up. Go to the setting menu to set a schedule.";
+"CAN_NOT_UPDATE_SCHEDULE_MODE_MESS" = "Can't update schedule mode";
+//HomeViewController
+"THIS_IS_YOUR_DASHBOARD" = "This is your SOLUS+ dashboard.";
+"LETS_GET_STARTED_SETTING_UP_YOUR_SOLUS" = "Let’s get started setting up your SOLUS!";
+"ADD_THE_FIRST_ROOM_MESS" = "Add the first room you wish to heat!";
+//HomeCell
+"HEATING_UP_TEXT" = "Heating up";
+//ForgotPasswordViewController
+"RESET_PASS_SUCCESS_MESS" = "Reset Password Successfull, Please check email to create new Password!";
+"RESET_PASSWORD_TEXT" = "Reset Password";
+"PLEASE_ENTER_YOUR_EMAIL_FOR_RESET_PASS_MESS" = "Please enter your email address. You will receive a link to reset your password via email.";
+"ENTER_EMAIL_HERE_TEXT" = "Enter email here";
+"SEND_LINK_TEXT" = "Send link";
+//SignUpViewController
+"TOO_SHORT_TEXT" = "Too short!";
+"SIGN_UP_SUCCESS_MESS" = "Sign Up Successfull!";
+//
+"TERMS_AND_CONDITIONS_TEXT" = "Terms & conditions";
+"LEGAL_TEXT" = "Legal";
+"CONTACT_FOR_HELP_MESSAGE" = "Contact <h1>info@koleda.co</h1> to receive data previously collected or delete your account";
+"ENTER_YOUR_NAME_TEXT" = "Enter your name here";
+"ENTER_PASSWORD_TEXT" = "Enter password here";
+"ENTER_HOME_ID_TEXT" = "Enter home id here";

@@ -1,0 +1,421 @@
+/* 
+  Localizable.strings
+  Koleda
+
+  Created by Oanh tran on 7/2/19.
+  Copyright © 2019 koleda. All rights reserved.
+*/
+
+
+"ERROR_TITLE" = "Error";
+"PLACEHOLDER_ERROR_MESSAGE" = "Un problème est survenu";
+"ERROR_GENERAL" = "Une erreur de connexion s'est produite. Veuillez réessayer plus tard.";
+"LOGIN_SESSSION_EXPIRED" = "Session de connexion expirée.";
+"TERM_AND_CONDITION_CONTENT" = "FR <p>Koleda built the Solus app as a Commercial app. This SERVICE is provided by Koleda and is intended for use as is.</p><p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p><p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p><p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Solus unless otherwise defined in this Privacy Policy.</p><p>Information Collection and Use</p><p>For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.</p><p>The app does use third party services that may collect information used to identify you.</p><p>Link to privacy policy of third party service providers used by the app</p>";
+// WIFI SCREEN
+"OK" = "OK";
+"OPEN_SETTINGS_TITLE" = "Aller aux paramètres";
+"CANCEL" = "Annuler";
+"ALLOW_ACCESS_LOCATION_IN_SETTING_MESSAGE" = "Cette application nécessite l'accès à votre position pour vérifier l'emplacement du capteur actuel";
+"ALLOW_ACCESS_LOCATION_IN_SETTING_TITLE" = "Veuillez modifier vos autorisations de localisation dans les paramètres";
+"ERROR_CONNECT_WIFI_MESSAGE" = "Il semble que vous ne soyez pas connecté au Wi-Fi. Veuillez réessayer !";
+"CONNECT_WIFI_MESSAGE" = "Vérification de la connexion Wi-Fi. Veuillez patienter...";
+// HOME SCREEN
+"SURFFIXES_HOME_TITLE" = "Accueil";
+// ROOM SCREEN
+"FAILED_TO_UPDATE_ROOM" = "La mise à jour de la page a échoué. Veuillez réessayer plus tard.";
+"CANCEL" = "Annuler";
+"DELETE" = "Supprimer";
+"DELETE_THIS_ROOM_TITLE" = "Supprimer cette page ?";
+"DELETE_THIS_ROOM_MESSAGE" = "Tous les capteurs et appareils de chauffage de cette page seront supprimés.";
+// LOGIN SCREEN
+"INVALID_PASSWORD_MESSAGE" = "La longueur du mot de passe doit être comprise entre 6 et 21 caractères. Caractères autorisés - [a - z] [A - Z] [0-9] ['@ & # . -]";
+//SIGN UP
+"EMAIL_EXISTED_MESSAGE" = "Ce e-mail est déjà enregistré. Veuillez essayer avec un autre email.";
+"EMAIL_NOT_EXISTED_MESSAGE" = "Adresse e-mail introuvable, veuillez mettre à jour votre adresse e-mail dans votre compte facebook.";
+// ADD DEVICE
+"DEVICE_EXISTED_MESSAGE" = "existe déjà dans une autre page.";
+// SIGN IN WITH APPLE
+"SHARE_APPLE_EMAIL_REQUIRED_MESSAGE" = "Solus+ utilise votre e-mail comme identifiant unique pour la gestion de l'application. Veuillez partager votre email pour continuer avec la connexion Apple.";
+// JOIN HOME
+"EMAIL_NOT_AVAILABLE_MESSAGE" = "L'adresse email est déjà utilisée.";
+"HOME_ID_INVALID_MESSAGE" = "l'identifiant n'est pas valide";
+"EMAIL_IS_NOT_INVITED_MESSAGE" = "Votre e-mail n'est pas invité à rejoindre cette maison";
+//INVITE FRIEND
+"EMAIL_INVALID_MESSAGE" = "L'email n'est pas valide";
+"EMAIL_SIMILAR_MESSAGE" = "s'inviter n'est pas valable";
+"EMAIL_MASTER_MESSAGE" = "Un compte principal avec cet e-mail existe déjà";
+"EMAIL_GUEST_MESSAGE" = "Un compte d'invité avec cet e-mail existe déjà";
+//FORGOT PASS
+"USER_NOT_FOUND_MESSAGE" = "Utilisateur introuvable avec e-mail";
+// OnboardingViewController
+"WELCOME" = "Bienvenue";
+"SUB_TITLE" = "C'est Solus+, le radiateur du futur.";
+"SIGN_UP" = "S'inscrire";
+"CONTINUE_WITH_FACEBOOK" = " Continuer avec Facebook";
+"CONTINUE_WITH_GOOGLE" = " Continuer avec Google";
+"CONTINUE_WITH_APPLE" = " Continuer avec Apple";
+"JOIN_HOME" = " Rejoindre un foyer";
+"ALREADY_HAVE_A_ACCOUNT" = " Vous avez déjà un compte ?";
+"LOGIN" = "Connexion";
+"LOGIN_APPLE_FAILED_TEXT" = "Échec de la connexion Apple";
+"WE_CAN_NOT_LOGIN_APPLE_MESS" = "nous ne pouvons pas nous connecter par Apple maintenant. Veuillez réessayer plus tard.";
+"LOGIN_GOOGLE_FAILED_TEXT" = "Échec de la connexion à Google";
+"WE_CAN_NOT_LOGIN_GOOGLE_MESS" = "Nous ne pouvons pas nous connecter par Google pour le moment. Veuillez réessayer plus tard.";
+"LOGIN_FACEBOOK_FAILED_TEXT" = "Échec de la connexion à Facebook";
+"WE_CAN_NOT_LOGIN_FACEBOOK_MESS" = "Nous ne pouvons pas nous connecter par Facebook pour le moment. Veuillez réessayer plus tard.";
+"PLEASE_SELECT_SHARE_EMAIL_CONTINUE_WITH_APPLE_SIGN_IN" = "Veuillez sélectionner Partager mon e-mail pour continuer avec la connexion Apple";
+// LoginViewController
+"EMAIL_TITLE" = "EMAIL";
+"PASSWORD_TITLE" = "MOT DE PASSE";
+"LOGIN_VIA_GOOGLE" = "Connexion via Google";
+"LOGIN_VIA_FACEBOOK" = "Connexion via Facebook";
+"LOGIN_VIA_APPLE" = "Connexion via Apple";
+"FORGOT_PASSWORD" = "Mot de passe oublié ?";
+"SIGN_IN" = "S'identifier";
+"LOGIN_FAILED_TEXT" = "Échec de la connexion";
+"EMAIL_OR_PASS_IS_INVALID" = "L'adresse e-mail ou le mot de passe n'est pas valide";
+// SelectedRoomViewController
+"ADD_ROOM_ERROR_MESSAGE" = "Vous ne pouvez pas %@ cette pièce maintenant. Veuillez réessayer plus tard.";
+//InstructionView
+"ADD_SENSOR_INSTRUCTION_TITLE_1" = "Attention lors de la mise en place d'une pièce, ne pas allumer <h>un capteur</h>\nà la fois.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_1" = "<b>Avertissement:</b> Afin de faciliter au maximum l'installation de votre nouveau système maison SOLUS+, nous vous recommandons de régler chaque chauffage et chaque capteur individuellement, un par un. Nous recommandons de placer le capteur à l'endroit exact de l'installation afin d'assurer une connexion wifi stable.";
+"ADD_SENSOR_INSTRUCTION_TITLE_2" = "Ouvrez le capteur en tournant la partie supérieure du boîtier de <h> 45 degrés.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_2" = "Ouvrez le capteur de température SOLUS en tournant la partie supérieure du boîtier extérieur de 45 degrés dans le sens des aiguilles d'une montre. Assurez-vous que le capteur de température SOLUS est alimenté par une pile CR123A.";
+"ADD_SENSOR_INSTRUCTION_TITLE_3" = "Tournez le capteur en <h> appuyant sur le bouton</h>";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_3" = "Appuyez sur le bouton - la LED doit s'allumer et clignoter lentement.\n<b>Attention</b> : Si la LED ne clignote pas lentement, appuyez sur le bouton et maintenez-le enfoncé pendant au moins 10 secondes. La LED devrait alors clignoter rapidement, signalant que le capteur de température a été réinitialisé.";
+"ADD_SENSOR_INSTRUCTION_TITLE_4" = "Fermez le capteur en le rattachant <h>casing</h> et en le tournant de 45 degrés.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_4" = "Vous pouvez fermer le capteur en réalignant la partie supérieure et inférieure du boîtier extérieur et en le tournant de 45 degrés dans le sens inverse des aiguilles d'une montre.";
+"ADD_SENSOR_INSTRUCTION_TITLE_5" = "Connectez-vous directement au capteur de température SOLUS via wifi.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_5" = "Pour ce faire, il suffit de Ouvrez Paramètres > WiFi et connectez-vous au réseau WiFi créé par le capteur de température SOLUS, par exemple solus-35FA58.";
+"ADD_SENSOR_INSTRUCTION_TITLE_6" = "Connectez-vous au point d'accès wifi du capteur.";
+"ADD_SENSOR_INSTRUCTION_SUB_TITLE_6" = "1. connectez-vous directement à la connexion wifi locale SOLUS en vous connectant à shellyht-XXXXXX ou Solus-Sensor-XXXXXX dans vos paramètres wi-fi.\n2. Une fois connecté, revenez à l'application SOLUS+ et entrez les informations d'identification wifi de votre réseau domestique.\n3. Une fois que vous avez entré les bonnes informations d'identification, rejoignez votre réseau domestique et si vous réussissez, l'application détectera le capteur SOLUS.";
+"ADD_HEATER_INSTRUCTION_TITLE_1" = "Attention lors de l'aménagement d'une pièce, n'allumez qu'un seul chauffage à la fois.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_1" = "<b>Avertissement:</b>\nPour faciliter au maximum l'installation de votre nouveau système maison SOLUS+, nous vous recommandons de régler chaque appareil de chauffage et chaque capteur individuellement, un à la fois. Nous recommandons de placer le chauffage à l'endroit exact de l'installation pour assurer une connexion wifi stable";
+"ADD_HEATER_INSTRUCTION_TITLE_2" = "Branchez le Solus.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_2" = "Branchez SOLUS+ sur une prise de courant et assurez-vous que SOLUS+ est bien fixé à l'aide des supports muraux fournis. Lorsque SOLUS+ est branché sur la prise de courant, appuyez sur le bouton d'alimentation situé sur le côté de SOLUS+ pour lancer la procédure de mise en place. Si SOLUS+ est correctement alimenté, le bouton d'alimentation s'allumera.";
+
+"ADD_HEATER_INSTRUCTION_TITLE_3" = "Se connecter au point d'accès Wi-fi du chauffage.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_3" = "Connectez-vous directement à SOLUS+ via wifi. Pour ce faire, il suffit de:\nOuvrir les paramètres > WiFi et de se connecter au réseau WiFi créé par SOLUS, par exemple solus-35FA58.\n<b>Avertissement:</b> Si SOLUS+ n'apparaît pas, débranchez l'appareil. Rebranchez l'appareil à la prise de courant et appuyez rapidement sur le bouton de mise en marche et d'arrêt 5 fois dans un délai de 30 secondes. Ceci réinitialisera les paramètres sans fil.";
+"ADD_HEATER_INSTRUCTION_TITLE_4" = "Se connecter au point d'accès Wi-fi du chauffage.";
+"ADD_HEATER_INSTRUCTION_SUB_TITLE_4" = "1. connectez-vous directement à la connexion wifi locale de SOLUS en vous connectant à SOLUS-Heater-XXXXXX ou Shelly1pm-XXXXXXXX dans vos paramètres wi-fi.\n2. Une fois connecté, revenez à l'application SOLUS+ et entrez les informations d'identification wifi de votre réseau domestique.\n3. Une fois que vous avez entré les bonnes informations d'identification, rejoignez votre réseau domestique et si vous réussissez, l'application détectera le chauffage SOLUS.";
+// RoomViewModel
+"TURNED_OFF_VIA_SCHEDULE" = "Désactivé par le biais de la planification intelligente";
+"TARGET_TEMPERATURE" = "Température cible";
+"MODE_TEXT" = "Mode";
+//ScheduleOfDayViewModel
+"MON_ABBR" = "LUNDI";
+"TUE_ABBR" = "MARDI";
+"WED_ABBR" = "MERCREDI";
+"THU_ABBR" = "JEUDI";
+"FRI_ABBR" = "VENDREDI.";
+"SAT_ABBR" = "SAMEDI";
+"SUN_ABBR" = "DIMANCHE";
+
+"MON_TEXT" = "LUNDI";
+"TUE_TEXT" = "MARDI";
+"WED_TEXT" = "MERCREDI";
+"THU_TEXT" = "JEUDI";
+"FRI_TEXT" = "VENDREDI";
+"SAT_TEXT" = "SAMEDI";
+"SUN_TEXT" = "DIMANCHE";
+"NUMBER_ROOMS_CAN_NOT_SHOW_MESSAGE" = "%d chambres";
+"MORE_ROOMS_CAN_NOT_SHOW_MESSAGE" = "+ %d de chambres supplémentaires";
+//RoomType
+"LIVING_ROOM_TEXT" = "SALON";
+"MUSIC_ROOM_TEXT" = "SALLE DE MUSIQUE";
+"HALLWAY_TEXT" = "HALLWAY";
+"READING_ROOM_TEXT" = "SALLE DE LECTURE";
+"BED_ROOM_TEXT" = "CHAMBRE À COUCHER";
+"KIDS_ROOM_TEXT" = "CHAMBRE D'ENFANT";
+"BATHROOM_TEXT" = "SALLE DE BAIN";
+"WORKING_ROOM_TEXT" = "SALLE DE TRAVAIL";
+"KITCHEN_TEXT" = "CUISINE";
+// BaseViewController
+"LOGOUT_TEXT" = "Déconnexion";
+//ProgressBarView
+"STEP_TEXT" = "Étape";
+//JoinHomeViewController
+"JOIN_HOME_TEXT" = "Rejoindre la page d'accueil";
+"NAME_TEXT" = "NOM";
+"EMAIL_TEXT" = "EMAIL";
+"CREATE_PASSWORD_TEXT" = "CRÉER UN MOT DE PASSE";
+"HOME_ID_TEXT" = "IDENTIFICATION";
+"NEXT_TEXT" = "Suivant";
+"JOIN_HOME_SUCCESS_MESS" = "Rejoignez la maison avec succès!";
+"KOLEDA_TEXT" = "Koleda";
+// JoinHomeViewModel
+"LOGIN_FAILED_TRY_AGAIN_MESS" = "Connexion échouée, veuillez réessayer plus tard.";
+"NAME_IS_NOT_EMPTY_MESS" = "Le nom n'est pas vide";
+"NAME_IS_INVALID_MESS" = "Le nom est invalide";
+"EMAIL_IS_NOT_EMPTY_MESS" = "L'e-mail n'est pas vide";
+"EMAIL_IS_INVALID_MESS" = "L'e-mail est invalide";
+"PASS_IS_NOT_EMPTY_MESS" = "Le mot de passe n'est pas vide";
+"HOME_ID_IS_NOT_EMPTY_MESS" = "L'Identiicaton n'et pas vide";
+"HOME_ID_IS_INVALID_MESS" = "Carte d'identité invalide";
+//InstructionForHeaterViewController
+"SKIP_TEXT" = "Passer";
+//HeatersManagementViewController
+"EDIT_HEATERS_TEXT" = "Modifier les chauffages";
+"CONFIRM_TEXT" = "Confirmer";
+"DELETED_HEATER_SUCCESS_MESS" = "Chauffage supprimé avec succès !";
+"CAN_NOT_DELETE_HEATER" = "Impossible de supprimer le chauffage maintenant.";
+"SENSOR_IS_PAIRED_WITH_HEATERS_MESS" = "Le capteur %@ est actuellement associé à ces appareils de chauffage";
+"SENSOR_IS_NOT_PAIRED_ANY_HEATER_MESS" = "%@ Le capteur ne se connecte à aucun chauffage.";
+"HEATERS_TEXT" = "Réchauffeurs";
+"ADD_HEATERS_TEXT" = "Ajouter des chauffages";
+"ACTIVE_TEXT" = "Actif";
+"INACTIVE_TEXT" = "Inactif";
+"REMOVE_TEXT" = "Supprimer";
+//AddHeaterManagementCollectionViewCell
+"SOLUS_TEXT" = "SOLUS+";
+"FREE_SLOT_TEXT" = "Créneau libre";
+"ADD_TEXT" = "Ajouter";
+//AddHeaterViewController
+"UPDATE_WIFI_SETTINGS_INFO_MESS" = "Veuillez mettre à jour les informations sur les paramètres Wi-fi.";
+"SUCCESSFULL_TEXT" = "Succès !";
+"HEATER_CONNECTED_TO_YOUR_LOCAL_WIFI_MESS" = "Chauffage connecté à votre wifi local.";
+"WIFI_SSID_OR_PASS_IS_INCORRECT_MESS" = "Le côté ou le mot de passe du wifi est incorrect, veuillez vérifier à nouveau.";
+"THIS_HEATER_TEXT" = "Ce chauffage";
+"CAN_NOT_ADD_HEATER_MESS" = "On ne peut pas ajouter Heater.";
+"ADD_A_HEATER_TEXT" = "Ajouter un chauffage";
+"SEARCHING_FOR_HEATER_TEXT" = "A la recherche d'un chauffage...";
+"COULD_NOT_FIND_HEATER_MESS" = "Je n'ai pas trouvé de chauffage ! Veuillez réessayer.";
+"CONNECT_TO_HEATER_HOTSPOT_TEXT" = "Se connecter au point chaud du chauffage   ";
+"RETRY_TEXT" = "Retrouvez ";
+"WE_HAVE_FOUND_ONE_HEATER_TEXT" = "Nous avons trouvé 1 appareil de chauffage.";
+"TAP_TO_CONNECT" = "Tapez pour le brancher.";
+"THERE_IS_MORE_THAN_ONE_HEATER_MESS" = "Il y a plus d'un chauffage dans cette pièce.";
+"FOLLOW_THE_INSTRUCTION_TO_CONNECT" = "Suivez les instructions pour le brancher.";
+"TRY_AGAIN_TEXT" = "Essayez à nouveau.";
+"ADDING_HEATER_TEXT" = "Ajout d'un chauffage";
+"PLEASE_WAIT_TEXT" = "S'il vous plaît, attendez...";
+"HEATER_ADDED_SUCCES_MESS" = "Chauffage ajouté avec succès !";
+"ADD_OTHER_HEATER_CONFIRM_MESS" = "Vous voulez ajouter un autre chauffage ?";
+"YES_TEXT" = "Oui";
+"NO_TEXT" = "Non";
+"INSTRUCTION_FOR_SELECT_YOUR_HEATER_HOTSPOT_MESS" = "Vous serez dirigé vers les paramètres généraux de votre application Solus+.  Veuillez naviguer manuellement vers les réglages Wifi et sélectionner le point d'accès de votre chauffage.  Une fois sélectionné, vous pouvez revenir à votre application Solus+.";
+//EditSensorViewController
+"EDIT_SENSOR_TEXT" = "Modifier le capteur";
+"SENSOR_NAME_TEXT" = "Nom du capteur";
+"STATUS_TEXT" = "Statut";
+"BATTERY_CHARGE_TEXT" = "Charge de la batterie";
+"TEMPERATURE_TEXT" = "Température";
+"HUMIDITY_TEXT" = "Humidité";
+"DELETED_SENSOR_SUCCESS_MESS" = "Capteur supprimé avec succès !";
+"CAN_NOT_DELETE_SENSOR_MESS" = "Le capteur ne peut pas être supprimé maintenant";
+//EditSensorViewModel
+"ROOM_SENSOR_TEXT" = "%@ Capteur";
+"NUMBER_HEATERS_CONNECTED_MESS" = "%d de chauffages connectés";
+"NOT_PAIRED_WITH_ANY_SOLUS_MESS" = "Non jumelé avec un SOLUS+";
+//SensorManagementViewController
+"THIS_SENSOR_TEXT" = "Ce capteur";
+"CAN_NOT_ADD_SENSOR_MESS" = "Impossible d'ajouter le capteur.";
+"CONNECT_TO_SENSOR_HOTSPOT_TEXT" = "Connectez-vous au point d'accès du capteur   ";
+"DONE_TEXT" = "Terminé";
+"INSTRUCTION_FOR_SELECT_YOUR_SENSOR_HOTSPOT_MESS" = "Vous serez dirigé vers les paramètres généraux de votre application Solus +. Veuillez naviguer manuellement vers les paramètres Wi-Fi et sélectionnez le point d'accès de votre capteur. Une fois sélectionné, vous pouvez revenir à votre application Solus +.";
+"SENSOR_CONNECTED_TO_YOUR_LOCAL_WIFI_MESS" = "Capteur connecté à votre wifi local.";
+//SensorManagementViewModel
+"ADD_A_SENSOR_TO_ROOM_TEXT" = "Ajouter un capteur à \ n <h1>% @ </h1>";
+"SEARCHING_FOR_SENSOR_TEXT" = "Recherche du capteur ...";
+"NO_SENSOR_IN_THIS_ROOM" = "Aucun capteur dans cette pièce";
+"INSTRUCTION_FOR_SET_UP_SENSOR_MESS" = "Veuillez suivre les instructions pour configurer le capteur.";
+"DETECT_ONE_SENSOR_MESS" = "Nous avons trouvé <h1> 1 </h1> capteur.";
+"THERE_IS_MORE_THAN_ONE_SENSOR_MESS" = "Il y a plus d'un capteur dans cette pièce.";
+"ADDING_SENSOR_TEXT" = "Ajout d'un capteur ...";
+"SENSOR_ADDED_SUCCES_MESS" = "Capteur ajouté avec succès!";
+//AlertConfirmViewController
+"YOU_ARE_ABOUT_TO_DELETE" = "Vous êtes sur le point de supprimer";
+"DO_YOU_WANT_TO_CONTINUE" = "Vous voulez continuer ?";
+"ALL_SENSORS_HEATERS_WILL_BE_REMOVED_MESS" = "Tous les capteurs et appareils de chauffage de cette pièce seront supprimés !";
+"CONFIRM_DELETE_SENSOR_MESS" = "Êtes-vous sûr de vouloir supprimer ce capteur ?";
+"CONFIRM_DELETE_HEATER_MESS" = "Êtes-vous sûr de vouloir supprimer ce chauffage ?";
+"DELETE_TEXT" = "Supprimer";
+//RoomDetailViewController
+"ADD_ROOM_SUCCESS_MESS" = "Ajoutez de la place avec succès !";
+"ROOM_NAME_TEXT" = "Nom de la salle";
+"PLEASE_SELECT_ROOM_TYPE" = "Veuillez sélectionner le type de chambre.";
+//RoomDetailViewModel
+"ADD_A_ROOM_TEXT" = "Ajouter une chambre";
+"CREATE_ROOM_TEXT" = "Créer une salle";
+"EDIT_ROOM_TEXT" = "Salle de rédaction";
+"CONFIRM_ROOM_DETAILS_TEXT" = "Confirmer les détails de la salle";
+"ROOM_NAME_IS_NOT_EMPTY_MESS" = "Le nom de la salle n'est pas vide";
+//InviteFriendsViewController
+"CONGRATULATIONS_TEXT" = "Félicitations !";
+"YOU_JUST_CREATED_HOME_MESS" = "Vous venez de créer un foyer. Invitez vos amis et votre famille dans votre foyer et donnez-leur accès à SOLUS+.";
+"INVITE_FRIENDS_TEXT" = "Inviter des amis";
+//InviteFriendsFinishedViewController
+"YOUR_INVITES_HAVE_BEEN_SENT_MESS" = "Vos invitations ont été envoyées ! Bravo !";
+"YOUR_FRIENDS_AND_FAMILY_WILL_BE_ABLE_CONTROL_YOUR_HOUSE_MESS" = "Bientôt, vos amis et votre famille pourront contrôler le chauffage de votre maison.";
+//InviteFriendsDetailViewController
+"SHARE_THE_WARMTH_TEXT" = "Partagez la chaleur";
+"INVITE_FRIENDS_AND_FAMILY_MESS" = "Invitez vos amis et votre famille chez vous";
+"INVITE_TEXT" = "Inviter";
+//FriendTableViewCell
+"INVITED_TEXT" = "Invité";
+//CreateHomeViewController
+"WELCOME_HOME_MESS" = "Bienvenue à SOLUS ! Créez votre maison";
+"SETUP_YOUR_FIRST_HOME_WITH_SOLUS" = "Installez votre première maison avec SOLUS+";
+"LETS_START_TEXT" = "Commençons";
+"NAME_YOUR_HOME" = "Nommez votre <h1>Accueil</h1>";
+// DetailModeViewController
+"EDIT_MODE_TEXT" = "Mode d'édition";
+//ModifyModesViewController
+"MODIFY_TEMPERATURE_MODE_TEXT" = "Mode de modification des températures";
+"HERE_YOU_CAN_MODIFY_TEMPERATURE_MODES_APPLY_TO_ROOM" = "Ici, vous pouvez modifier les modes de température qui s'appliquent aux pièces.";
+"CUSTOM_TEMPERATURES_TEXT" = "Températures personnalisées";
+//WifiDetailViewController
+"INPUT_YOUR_HOME_WIFI_MESS" = "Saisissez vos identifiants wifi ci-dessous pour connecter l'appareil à votre réseau domestique";
+"WIFI_SSID_TEXT" = "WIFI SSID";
+"SAVE_TEXT" = "SAUVEGARDER";
+//WifiDetailViewModel
+"SSID_IS_NOT_EMPTY_MESS" = "ssid n'est pas vide";
+//RoomsPopOverViewController
+"PLEASE_SELECT_ROOMS" = "Veuillez sélectionner les chambres";
+//SmartScheduleDetailViewController
+"CAN_NOT_UPDATE_SMART_SCHEDULE_MESS" = "Impossible de mettre à jour le calendrier intelligent maintenant.";
+"MODIFY_TIMESLOT_TEXT" = "Modifier le créneau horaire";
+"APPLIED_TO_ALL_ROOMS" = "Appliqué à toutes les pièces";
+"START_TEXT" = "Démarrer";
+"END_TEXT" = "Fin";
+"ROOMS_TEXT" = "Chambres";
+"ADD_ROOM_TO_TIMESLOT" = "Ajouter de la place au créneau horaire";
+"SELECT_MODE_TEXT" = "Mode de sélection";
+//SmartScheduleDetailViewModel
+"START_TIMESLOT_IS_EMPTY_MESS" = "La plage horaire de départ est vide.  Veuillez saisir ceci";
+"END_TIMESLOT_IS_EMPTY_MESS" = "La plage horaire de fin est vide.  Veuillez saisir ceci";
+"INVALID_TIMESLOT_MESS" = "Horaires non valables";
+"END_TIMESLOT_MUST_BE_GREATER_MESS" = "La plage horaire de fin doit être supérieure à la plage horaire de début";
+"PLEASE_CHOOSE_AT_LEAST_ONE_ROOM_MESS" = "Veuillez choisir au moins une chambre pour cet horaire.";
+"ADD_SMARTSCHEDULE_TEXT" = "Ajouter SmartSchedule ";
+"CELSIUS_TEXT" = "Celsius";
+"FAHRENHEIT_TEXT" = "Fahrenheit";
+//
+"CAN_NOT_UPDATE_TEMPERATURE_UNIT_MESS" = "Impossible de mettre à jour l'unité de température. Veuillez réessayer plus tard";
+"TEMPERATURE_TEXT" = "Température";
+"AND_FINALLY_HOW_WOULD_YOU_MEASURE_TEMP_MESS" = "Et enfin, comment mesurer les températures ?";
+"CONFIRM_AND_FINISH" = "Confirmer et terminer  ";
+//MenuSettingsViewController
+"CAN_NOT_LEAVE_MASTER_MESS" = "Je ne peux pas quitter la maison du maître maintenant.  Veuillez réessayer plus tard";
+"APP_SETTINGS_TEXT" = "Paramètres de l'application";
+"TEMPERATURE_UNITS_TEXT" = "Unités de température";
+"REPORT_BUGS_AND_PROBLEMS" = "Signaler les bugs et les problèmes";
+"MONTH_TEXT" = "Mois";
+"WEEK_TEXT" = "Semaine";
+"DAY_TEXT" = "Journée";
+//MenuSettingsViewModel
+"SPENT_TO_FAR_THIS_MONTH_TEXT" = "Dépensé jusqu'à présent ce mois-ci";
+"SPENT_TO_FAR_THIS_WEEK_TEXT" = "Dépensé jusqu'à présent cette semaine";
+"SPENT_TO_FAR_THIS_DAY_TEXT" = "Dépensé jusqu'à présent";
+"LEAVE_SHARING_HOME_TEXT" = "Quitter la maison partagée";
+"SHARING_HOME_MANAGEMENT_TEXT" = "Accès utilisateur multiple";
+"ROOM_CONFIGURATION_TEXT" = "Configuration de la salle";
+"ADD_ROOM_TEXT" = "Ajouter une salle";
+"SMART_SCHEDULING_TEXT" = "Planification intelligente";
+"ENERGY_TARIFF_TEXT" = "Tarif de l'énergie";
+"WIFI_SETTINGS_TEXT" = "Paramètres Wifi";
+"MODITY_TEMPERATURE_MODES_TEXT" = "Ajouter une pièce";
+//EnergyTariffInputViewController
+"TIMESLOT_TEXT" = "Horaires";
+"DAYTIME_TEXT" = "Journée";
+"NIGHTTIME_TEXT" = "La nuit";
+"PRICE_FER_KWH" = "Prix par KWh";
+// EnergyTariffViewController
+"UPDATED_TARIFF_INFO_SUCCESS_MESS" = "Mise à jour de l'information tarifaire réussie";
+"UPDATED_TARIFF_INFO_FAILED_MESS" = "Echec de la mise à jour des informations tarifaires";
+"SETUP_YOUR_ENERGY_TARIFF" = "Fixez votre tarif énergétique";
+"DAYTIME_TARIFF_TEXT" = "Tarif du jour";
+"INPUT_DAYTIME_TARIFF_MESS" = "Il s'agit du tarif de jour.  Saisissez votre tarif de jour et suivez vos dépenses.";
+"NIGHTTIME_TARIFF_TEXT" = "Tarif du nuit";
+"INPUT_NIGHTTIME_TARIFF_MESS" = "Il s'agit du tarif de nuit.  Saisissez votre tarif de nuit et suivez vos dépenses.";
+"SKIP_AND_CONTINUE_TEXT" = "Passer et continuer";
+"START_DAYTIME_TARIFF_MUST_DIFFERENT_END_DAYTIME_TARIFF" = "Le tarif de début de journée doit être différent du tarif de fin de journée";
+"END_DAYTIME_TARIFF_MUST_DIFFERENT_START_DAYTIME_TARIFF" = "Le tarif de fin de journée doit être différent du tarif de début de journée";
+"START_NIGHTTIME_TARIFF_MUST_DIFFERENT_END_NIGHTTIME_TARIFF" = "Le tarif de début de nuit doit être différent du tarif de fin de nuit";
+"END_NIGHTTIME_TARIFF_MUST_DIFFERENT_START_NIGHTTIME_TARIFF" = "Le tarif de fin de nuit doit être différent du tarif de début de nuit";
+//EnergyTariffViewModel
+"START_DAYTIME_IS_NOT_EMPTY_MESS" = "Le tarif de jour n'est pas vide";
+"END_DAYTIME_IS_NOT_EMPTY_MESS" = "Le tarif de fin de journée n'est pas vide";
+"START_NIGHTTIME_IS_NOT_EMPTY_MESS" = "Le tarif de nuit de départ n'est pas vide";
+"END_NIGHTTIME_IS_NOT_EMPTY_MESS" = "Le tarif de fin de soirée n'est pas vide";
+"TARIFF_NUMBER_DAY_IS_NOT_EMPTY" = "Le numéro tarifaire de jour est manquant";
+"TARIFF_NUMBER_NIGHT_IS_NOT_EMPTY" = "Le numéro tarifaire de nuit est manquant";
+"CURRENCY_IS_NOT_EMPTY" = "la monnaie n'est pas vide";
+// WifiSetupViewController
+"WIFI_CONNECTION_TEXT" = "Connexion Wi-fi";
+"CHECKING_WIFI_CONNECTION_MESS" = "Vérification de la connexion wifi... Veuillez patienter.";
+"RETRY_TEXT" = "Réessayez";
+//LocationSetupViewController
+"ALLOW_SOLUS_USE_YOUR_GEOLOCATION_MESS" = "Permettez à SOLUS+ d'utiliser votre géolocalisation";
+"THIS_IS_NECESSARY_FOR_THE_CORRECT_DETECTION_OF_YOUR_LOCATION_MESS" = "Nous utilisons votre emplacement pour configurer et connecter correctement vos appareils à l'application";
+"ALLOW_TEXT" = "Autorisez";
+"DECLINE_TEXT" = "Déclinez";
+//TermAndConditionViewController
+"LOADING_TEXT" = "Chargement...";
+"PRIVACY_POLICY_TEXT" = "Politique de confidentialité";
+"AGREE_AND_CONTINUE_TEXT" = "Accepter et continuer";
+//ManualBoostViewModel
+"UNLIMITED_TEXT" = "Illimité";
+"UNTIL_TEXT" = "Jusqu'à";
+"MANUAL_BOOST_CAN_NOT_RESET_MESS" = "Le Boost manuel ne peut pas être réinitialisé maintenant";
+"HEATING_TO_TEXT" = "Chauffage à";
+"COOLING_DOWN_TEXT" = "Refroidissement";
+//ConfigurationRoomViewController
+"EDIT_ROOM_DETAILS_TEXT" = "Détails de la salle de rédaction";
+"MANAGEMENT_TEXT" = "Gestion";
+"MANAGE_ROOM_TEXT" = "Gérer la salle";
+"HEATER_MANAGEMENT_TEXT" = "Gestion du chauffage";
+"SENSOR_MANAGEMENT_TEXT" = "Gestion des capteurs";
+//ConfigurationRoomViewModel
+"ROOM_NOT_CONNECT_TO_ANY_SENSOR_MESS" = "%@ n'est connecté à aucun capteur.";
+"PAIRED_WITH_SENSOR_MESS" = "FCouplé à %@ Capteur";
+"SENSOR_NOT_CONNECT_TO_ANY_HEATER_MESS" = "%@ Le capteur ne se connecte à aucun chauffage.";
+"SENSOR_PAIRED_WITH_HEATERS_MESS" = "%@ Sensor est actuellement couplé à ces chauffages";
+//ModeView
+"ECO_MODE_TEXT" = "Mode éco";
+"COMFORT_MODE_TEXT" = "Mode confort";
+"NIGHT_MODE_TEXT" = "Mode nuit";
+"SCHEDULE_TEXT" = "Programme";
+//SelectedRoomViewController
+"TURN_ON_TEXT" = "allumer";
+"TURN_OFF_TEXT" = "éteindre";
+"ON_TEXT" = "allumer";
+"OFF_TEXT" = "éteindre";
+"PLEASE_SET_A_TIMER_FOR_MANUAL_BOOST_MESS" = "Veuillez régler une minuterie pour le boost manuel.";
+"UPDATING_MANUAL_BOOST_TEXT" = "mise à jour du boost manuel";
+"MANUAL_BOOST_UPDATE_SUCCESS_MESS" = "Manual Boost mis à jour avec succès !";
+"MANUAL_BOOST_CAN_NOT_UPDATE_MESS" = "Manual Boost ne peut pas être mis à jour maintenant";
+"RESET_BOOSTING_SUCCESS_MESS" = "Réinitialisation du Boost manuel réussie !";
+"MANUAL_BOOST_TIMEOUT_TEXT" = "Délai d'attente du Boost manuel";
+"ROOM_SETTINGS_TEXT" = "Réglages des chambres  ";
+"CHANGE_MODE_IS_NOT_POSSIBLE_MESS" = "Il n'est pas possible de changer de mode.  Veuillez d'abord brancher un chauffage dans votre chambre";
+"CAN_NOT_UPDATE_MODE_MESS" = "impossible de mettre à jour le mode!";
+//SelectedRoomViewModel
+"CAN_NOT_UPDATE_SETTING_MODE" = "Ne peut pas mettre à jour le mode de réglage";
+"BOOSTING_UNTIL_YOU_CANCEL" = "Booster jusqu'à l'annulation";
+"BOOSTING_UNTIL_TIME" = "Stimuler jusqu'au %@";
+"THERE_IS_NO_SCHEDULE_MESS" = "Il n'y a pas de calendrier actuellement.  Allez dans le menu de paramétrage pour définir un horaire.";
+"CAN_NOT_UPDATE_SCHEDULE_MODE_MESS" = "Impossible de mettre à jour le mode horaire";
+//HomeViewController
+"THIS_IS_YOUR_DASHBOARD" = "Voici votre tableau de bord SOLUS+.";
+"LETS_GET_STARTED_SETTING_UP_YOUR_SOLUS" = "Commençons à mettre en place votre SOLUS !";
+"ADD_THE_FIRST_ROOM_MESS" = "Ajoutez la première pièce que vous souhaitez chauffer !";
+//HomeCell
+"HEATING_UP_TEXT" = "Chauffage";
+//ForgotPasswordViewController
+"RESET_PASS_SUCCESS_MESS" = "Réinitialisation du mot de passe réussie, veuillez vérifier l'adresse e-mail pour créer un nouveau mot de passe !";
+"RESET_PASSWORD_TEXT" = "Réinitialiser le mot de passe";
+"PLEASE_ENTER_YOUR_EMAIL_FOR_RESET_PASS_MESS" = "Veuillez entrer votre adresse électronique.  Vous recevrez un lien pour réinitialiser votre mot de passe par e-mail.";
+"ENTER_EMAIL_HERE_TEXT" = "Entrez votre adresse e-mail ici";
+"SEND_LINK_TEXT" = "Envoyer le lien";
+//SignUpViewController
+"TOO_SHORT_TEXT" = "Trop court !";
+"SIGN_UP_SUCCESS_MESS" = "Inscription réussie !";
+//
+"TERMS_AND_CONDITIONS_TEXT" = "Termes et conditions";
+"LEGAL_TEXT" = "Légal";
+"CONTACT_FOR_HELP_MESSAGE" = "Contactez <h1> info@koleda.co </h1> pour recevoir les données précédemment collectées ou supprimer votre compte";
+"ENTER_YOUR_NAME_TEXT" = "Entrez votre nom ici";
+"ENTER_PASSWORD_TEXT" = "Entrez le mot de passe ici";
+"ENTER_HOME_ID_TEXT" = "Entrez l'identifiant du domicile ici";

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="futurapt-demi.ttf">
+            <string>FuturaPT-Demi</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModeView" customModule="Koleda" customModuleProvider="target">
+            <connections>
+                <outlet property="lineLabel" destination="1Yh-As-aGs" id="E7r-Pl-TsZ"/>
+                <outlet property="modeIconImageView" destination="yLa-nY-rLT" id="1hR-8c-GI5"/>
+                <outlet property="titleModeLabel" destination="Vdb-Ei-Dh4" id="Stn-X0-tx4"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="103" height="84"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ecoMode" translatesAutoresizingMaskIntoConstraints="NO" id="yLa-nY-rLT">
+                    <rect key="frame" x="47" y="22" width="9" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ECO MODE" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vdb-Ei-Dh4">
+                    <rect key="frame" x="0.0" y="51" width="103" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="QT6-DL-0FG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FuturaPT-Demi" family="Futura PT" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yh-As-aGs" userLabel="Line">
+                    <rect key="frame" x="0.0" y="82" width="103" height="2"/>
+                    <color key="backgroundColor" red="1" green="0.4392156862745098" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="sis-rI-EOY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Vdb-Ei-Dh4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Hmb-0b-KSC"/>
+                <constraint firstItem="yLa-nY-rLT" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" constant="-10" id="MEy-Bl-n4E"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Vdb-Ei-Dh4" secondAttribute="bottom" constant="13" id="O16-K4-7mp"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="1Yh-As-aGs" secondAttribute="bottom" id="Vae-z1-vnW"/>
+                <constraint firstItem="Vdb-Ei-Dh4" firstAttribute="centerX" secondItem="yLa-nY-rLT" secondAttribute="centerX" id="fX1-tN-oWC"/>
+                <constraint firstItem="yLa-nY-rLT" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="g23-Cd-R1N"/>
+                <constraint firstItem="1Yh-As-aGs" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="lk5-lD-I9j"/>
+                <constraint firstItem="1Yh-As-aGs" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="wnS-ch-jLI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-76" y="-134.93253373313345"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ecoMode" width="9" height="20"/>
+    </resources>
+</document>

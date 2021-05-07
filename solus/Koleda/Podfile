@@ -1,0 +1,39 @@
+platform :ios, '10.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://bitbucket.org/teamcopilot/copilot-sdk-ios-specs.git'
+
+def common_pods
+  pod 'Alamofire', '~> 5.1'
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'Sync', '~> 5'
+  pod 'SVProgressHUD'
+  pod 'CocoaLumberjack'
+  pod 'CocoaLumberjack/Swift'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'PromiseKit'
+  pod 'Locksmith'
+  pod 'ReachabilitySwift'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKCoreKit/Swift'
+  pod 'FBSDKLoginKit/Swift'
+  pod 'FBSDKShareKit/Swift'
+  pod 'GoogleSignIn'
+  pod "StompClientLib"
+  pod 'SwiftRichString'
+  pod 'SpreadsheetView'
+  pod 'Swift_PageMenu', '~> 1.4'
+  pod 'Segmentio'
+  pod 'Copilot', '4.7.1'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+end
+
+target 'Koleda' do
+  use_frameworks!
+  common_pods
+end
